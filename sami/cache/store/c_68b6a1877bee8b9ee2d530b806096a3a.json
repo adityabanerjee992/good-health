@@ -1,0 +1,62 @@
+{
+    "name": "App\\Http\\Controllers\\Admin\\Contracts\\Role",
+    "line": 3,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Admin\\Contracts",
+    "file": "app\/Http\/Controllers\/Admin\/Contracts\/Role.php",
+    "relative_file": null,
+    "hash": "bbe940498377b46da201fc7f654e29f20544795b",
+    "parent": null,
+    "modifiers": "Stmt_Interface",
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "index": {
+            "name": "index",
+            "line": 10,
+            "short_desc": "Display a listing of the roles.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\Contracts\\Illuminate\\Contracts\\View\\Factory",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "create": {
+            "name": "create",
+            "line": 17,
+            "short_desc": "Show the form for creating a new role.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\Contracts\\Illuminate\\Contracts\\View\\Factory",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

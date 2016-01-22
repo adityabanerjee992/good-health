@@ -1,0 +1,132 @@
+{
+    "name": "App\\Http\\Controllers\\DrugsController",
+    "line": 14,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/Http\/Controllers\/DrugsController.php",
+    "relative_file": null,
+    "hash": "e89e0b290cb9611c75e6a3995d59bb743f56b6eb",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "URL": "URL",
+        "Request": "Request",
+        "Requests": "App\\Http\\Requests",
+        "Ailment": "App\\Ailment",
+        "Classes": "App\\Classes",
+        "Company": "App\\Company",
+        "Product": "App\\Product",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "Manufacturer": "App\\Manufacturer",
+        "DrugsContract": "App\\Http\\Contracts\\Drugs"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Contracts\\Drugs": "App\\Http\\Contracts\\Drugs"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "byAilments": {
+            "name": "byAilments",
+            "line": 21,
+            "short_desc": "Get Drugs By Ailments",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Illuminate\\Contracts\\View\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "byClass": {
+            "name": "byClass",
+            "line": 37,
+            "short_desc": "Get Drugs By Class",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Illuminate\\Contracts\\View\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "byCompany": {
+            "name": "byCompany",
+            "line": 53,
+            "short_desc": "Get Drugs By Company",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Illuminate\\Contracts\\View\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "byManufacturer": {
+            "name": "byManufacturer",
+            "line": 69,
+            "short_desc": "Get Drugs By Manufacturer",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Illuminate\\Contracts\\View\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "byAZ": {
+            "name": "byAZ",
+            "line": 85,
+            "short_desc": "Get Drugs By A to Z (in alphabatical order)",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Illuminate\\Contracts\\View\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

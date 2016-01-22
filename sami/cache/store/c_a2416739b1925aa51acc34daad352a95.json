@@ -1,0 +1,841 @@
+{
+    "name": "App\\Http\\Controllers\\Traits\\Cart",
+    "line": 23,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Traits",
+    "file": "app\/Http\/Controllers\/Traits\/Cart.php",
+    "relative_file": null,
+    "hash": "f09e533baff73d0818d543bcbb36dcf2750e90ba",
+    "parent": null,
+    "modifiers": "Stmt_Trait",
+    "is_trait": true,
+    "is_interface": false,
+    "aliases": {
+        "URL": "URL",
+        "Auth": "Auth",
+        "Flash": "Flash",
+        "Input": "Input",
+        "Cookie": "Cookie",
+        "Request": "Request",
+        "Session": "Session",
+        "Redirect": "Redirect",
+        "Response": "Response",
+        "Validator": "Validator",
+        "Requests": "App\\Http\\Requests",
+        "ShoppingCart": "Cart",
+        "Address": "App\\Address",
+        "Customer": "App\\Customer",
+        "Collection": "Illuminate\\Support\\Collection",
+        "PaymentType": "App\\PaymentType",
+        "Order": "App\\Http\\Contracts\\Order",
+        "Product": "App\\Http\\Contracts\\Product",
+        "DocumentUpload": "App\\Http\\Contracts\\DocumentUpload"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 60,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "order": {
+                    "name": "order",
+                    "line": 60,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Traits\\App\\Http\\Contracts\\Order",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Contracts\\Order",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "product": {
+                    "name": "product",
+                    "line": 60,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Traits\\App\\Http\\Contracts\\Product",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Contracts\\Product",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "documentUpload": {
+                    "name": "documentUpload",
+                    "line": 60,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Traits\\App\\Http\\Contracts\\DocumentUpload",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Contracts\\DocumentUpload",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "address": {
+                    "name": "address",
+                    "line": 60,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Traits\\App\\Address",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Address",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getUploadPrescription": {
+            "name": "getUploadPrescription",
+            "line": 72,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "postUploadPrescription": {
+            "name": "postUploadPrescription",
+            "line": 93,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "address": {
+            "name": "address",
+            "line": 118,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "orderSummary": {
+            "name": "orderSummary",
+            "line": 125,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "orderConfirmation": {
+            "name": "orderConfirmation",
+            "line": 136,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "checkout": {
+            "name": "checkout",
+            "line": 213,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addProductToCart": {
+            "name": "addProductToCart",
+            "line": 253,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 253,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "customerId": {
+                    "name": "customerId",
+                    "line": 253,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                },
+                "isApi": {
+                    "name": "isApi",
+                    "line": 253,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "false",
+                    "is_by_ref": false
+                },
+                "quantity": {
+                    "name": "quantity",
+                    "line": 253,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "1",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "cartReorder": {
+            "name": "cartReorder",
+            "line": 322,
+            "short_desc": "Reorder the order with the given\norder id",
+            "long_desc": "",
+            "hint": [],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "\"0\" @param tags are expected but only \"1\" found"
+            ],
+            "parameters": []
+        },
+        "updateProductInCart": {
+            "name": "updateProductInCart",
+            "line": 416,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "customerId": {
+                    "name": "customerId",
+                    "line": 416,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                },
+                "isApi": {
+                    "name": "isApi",
+                    "line": 416,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "false",
+                    "is_by_ref": false
+                },
+                "orderId": {
+                    "name": "orderId",
+                    "line": 416,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                },
+                "quantity": {
+                    "name": "quantity",
+                    "line": 416,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                },
+                "productCode": {
+                    "name": "productCode",
+                    "line": 416,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "deleteProductFromCart": {
+            "name": "deleteProductFromCart",
+            "line": 439,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCartDataUserLoggedIn": {
+            "name": "getCartDataUserLoggedIn",
+            "line": 458,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "customerId": {
+                    "name": "customerId",
+                    "line": 458,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                },
+                "isApi": {
+                    "name": "isApi",
+                    "line": 458,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "false",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCartDataUserNotLoggedIn": {
+            "name": "getCartDataUserNotLoggedIn",
+            "line": 477,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addProductInCartToDb": {
+            "name": "addProductInCartToDb",
+            "line": 491,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "cartData": {
+                    "name": "cartData",
+                    "line": 491,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "cookie": {
+                    "name": "cookie",
+                    "line": 491,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "isApi": {
+                    "name": "isApi",
+                    "line": 491,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "false",
+                    "is_by_ref": false
+                },
+                "customerId": {
+                    "name": "customerId",
+                    "line": 491,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "updateProductInCartToDb": {
+            "name": "updateProductInCartToDb",
+            "line": 496,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "rowId": {
+                    "name": "rowId",
+                    "line": 496,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "cookie": {
+                    "name": "cookie",
+                    "line": 496,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "updateProductInCartToDbForApi": {
+            "name": "updateProductInCartToDbForApi",
+            "line": 509,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "customerId": {
+                    "name": "customerId",
+                    "line": 509,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "isApi": {
+                    "name": "isApi",
+                    "line": 509,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "orderId": {
+                    "name": "orderId",
+                    "line": 509,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "quantity": {
+                    "name": "quantity",
+                    "line": 509,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "productCode": {
+                    "name": "productCode",
+                    "line": 509,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "deleteProductFromDb": {
+            "name": "deleteProductFromDb",
+            "line": 514,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "cartData": {
+                    "name": "cartData",
+                    "line": 514,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "cookie": {
+                    "name": "cookie",
+                    "line": 514,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCartDataByToken": {
+            "name": "getCartDataByToken",
+            "line": 525,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isApi": {
+                    "name": "isApi",
+                    "line": 525,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "false",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCartDataBYUid": {
+            "name": "getCartDataBYUid",
+            "line": 557,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "customerId": {
+                    "name": "customerId",
+                    "line": 557,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                },
+                "isApi": {
+                    "name": "isApi",
+                    "line": 557,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "false",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCartDataFromDbByToken": {
+            "name": "getCartDataFromDbByToken",
+            "line": 612,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "token": {
+                    "name": "token",
+                    "line": 612,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getCartDataFromDbByUidAndUpdateToken": {
+            "name": "getCartDataFromDbByUidAndUpdateToken",
+            "line": 619,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "uid": {
+                    "name": "uid",
+                    "line": 619,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "token": {
+                    "name": "token",
+                    "line": 619,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getShowResponse": {
+            "name": "getShowResponse",
+            "line": 624,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "cartData": {
+                    "name": "cartData",
+                    "line": 624,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                },
+                "itemsCount": {
+                    "name": "itemsCount",
+                    "line": 624,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                },
+                "cookie": {
+                    "name": "cookie",
+                    "line": 624,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getScheduledDrugsFromCart": {
+            "name": "getScheduledDrugsFromCart",
+            "line": 648,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "validator": {
+            "name": "validator",
+            "line": 676,
+            "short_desc": "Get a validator for an incoming request.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Contracts\\Validation\\Validator",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "The \"data\" @param tag variable name is wrong (should be \"input\")"
+            ],
+            "parameters": {
+                "input": {
+                    "name": "input",
+                    "line": 676,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

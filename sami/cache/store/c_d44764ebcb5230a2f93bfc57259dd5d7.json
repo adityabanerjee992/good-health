@@ -1,0 +1,364 @@
+{
+    "name": "App\\Http\\Controllers\\Admin\\StoreManagementController",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Admin",
+    "file": "app\/Http\/Controllers\/Admin\/StoreManagementController.php",
+    "relative_file": null,
+    "hash": "ad6d70f69c2faea216eb2e86a22cf6cb88de7571",
+    "parent": "App\\Http\\Controllers\\Admin\\BaseController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Store": "App\\Store",
+        "Pincode": "App\\Pincode",
+        "Requests": "App\\Http\\Requests",
+        "Flash": "Laracasts\\Flash\\Flash",
+        "Request": "Illuminate\\Http\\Request",
+        "DB": "Illuminate\\Support\\Facades\\DB",
+        "ChemistAccountCreated": "App\\Events\\ChemistAccountCreated",
+        "Event": "Illuminate\\Support\\Facades\\Event",
+        "Redirect": "Illuminate\\Support\\Facades\\Redirect",
+        "Validator": "Illuminate\\Support\\Facades\\Validator",
+        "Sentinel": "Cartalyst\\Sentinel\\Laravel\\Facades\\Sentinel",
+        "StoreManagementContract": "App\\Http\\Controllers\\Admin\\Contracts\\StoreManagement"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Controllers\\Admin\\Contracts\\StoreManagement": "App\\Http\\Controllers\\Admin\\Contracts\\StoreManagement"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "index": {
+            "name": "index",
+            "line": 23,
+            "short_desc": "Display a listing of the stores.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "create": {
+            "name": "create",
+            "line": 34,
+            "short_desc": "Show the form for creating a new store.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "store": {
+            "name": "store",
+            "line": 45,
+            "short_desc": "Store a newly created store in storage.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 45,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\Contracts\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Illuminate\\Http\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "show": {
+            "name": "show",
+            "line": 77,
+            "short_desc": "Display the specified store.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 77,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "edit": {
+            "name": "edit",
+            "line": 96,
+            "short_desc": "Show the form for editing the specified store.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 96,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "update": {
+            "name": "update",
+            "line": 117,
+            "short_desc": "Update the specified store in storage.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 117,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\Contracts\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Illuminate\\Http\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "id": {
+                    "name": "id",
+                    "line": 117,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "destroy": {
+            "name": "destroy",
+            "line": 151,
+            "short_desc": "Remove the specified store from storage.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 151,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getModalDelete": {
+            "name": "getModalDelete",
+            "line": 169,
+            "short_desc": "Delete Confirm",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 169,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getDeletedStores": {
+            "name": "getDeletedStores",
+            "line": 191,
+            "short_desc": "Show a list of all the deleted stores.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getRestore": {
+            "name": "getRestore",
+            "line": 205,
+            "short_desc": "Restore a deleted store.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Support\\Facades\\Redirect",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 205,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,131 @@
+{
+    "name": "App\\Http\\Controllers\\CartController",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/Http\/Controllers\/CartController.php",
+    "relative_file": null,
+    "hash": "9e4348007c9e4d4190441800d687bf32a7d06751",
+    "parent": "App\\Http\\Controllers\\BaseControllers\\BaseCartController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Auth": "Auth",
+        "Request": "Illuminate\\Support\\Facades\\Request",
+        "CartContract": "App\\Http\\Contracts\\Cart",
+        "BaseCartController": "App\\Http\\Controllers\\BaseControllers\\BaseCartController"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Contracts\\Cart": "App\\Http\\Contracts\\Cart"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "show": {
+            "name": "show",
+            "line": 15,
+            "short_desc": "Display or show user cart",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Illuminate\\Contracts\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "add": {
+            "name": "add",
+            "line": 33,
+            "short_desc": "Add product to cart",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "productId": {
+                    "name": "productId",
+                    "line": 33,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "update": {
+            "name": "update",
+            "line": 51,
+            "short_desc": "Update user cart",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "destroy": {
+            "name": "destroy",
+            "line": 61,
+            "short_desc": "Remove the product from user's cart",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 61,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

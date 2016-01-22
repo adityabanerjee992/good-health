@@ -1,0 +1,68 @@
+{
+    "name": "App\\Http\\Controllers\\SignInController",
+    "line": 10,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/Http\/Controllers\/SignInController.php",
+    "relative_file": null,
+    "hash": "3b1196b7ea51d2eda1a391b4f2f6af862c777da7",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Request": "Illuminate\\Http\\Request",
+        "Requests": "App\\Http\\Requests",
+        "Controller": "App\\Http\\Controllers\\Controller"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getSignIn": {
+            "name": "getSignIn",
+            "line": 19,
+            "short_desc": "Displays The SignIn View Or Form",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Illuminate\\Contracts\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "\"0\" @param tags are expected but only \"1\" found"
+            ],
+            "parameters": []
+        },
+        "postSignIn": {
+            "name": "postSignIn",
+            "line": 30,
+            "short_desc": "undocumented function",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

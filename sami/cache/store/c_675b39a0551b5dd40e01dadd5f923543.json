@@ -1,0 +1,100 @@
+{
+    "name": "App\\Http\\Controllers\\Admin\\SaltImporter",
+    "line": 12,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Admin",
+    "file": "app\/Http\/Controllers\/Admin\/SaltImporter.php",
+    "relative_file": null,
+    "hash": "05e5379da13d97dd0a50ac1bf1352c4da7611d78",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "DB": "DB",
+        "Salt": "App\\Salt",
+        "SaltCategory": "App\\SaltCategory",
+        "ScheduleType": "App\\ScheduleType",
+        "Requests": "App\\Http\\Requests",
+        "Flash": "Laracasts\\Flash\\Flash",
+        "Excel": "Maatwebsite\\Excel\\Facades\\Excel",
+        "Redirect": "Illuminate\\Support\\Facades\\Redirect"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "startImport": {
+            "name": "startImport",
+            "line": 20,
+            "short_desc": "Start the salts import process",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Support\\Facades\\Redirect",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "results": {
+                    "name": "results",
+                    "line": 20,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\Http\\Controllers\\Admin\\Illuminate\\Support\\Collection",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "storeSalt": {
+            "name": "storeSalt",
+            "line": 60,
+            "short_desc": "Store the salt to db",
+            "long_desc": "",
+            "hint": [],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "input": {
+                    "name": "input",
+                    "line": 60,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "Object",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

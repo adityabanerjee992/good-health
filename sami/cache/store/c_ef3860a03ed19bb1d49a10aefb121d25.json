@@ -1,0 +1,94 @@
+{
+    "name": "App\\Http\\Controllers\\ChangePasswordController",
+    "line": 11,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/Http\/Controllers\/ChangePasswordController.php",
+    "relative_file": null,
+    "hash": "afc90ce9f37da094eb327271cf4fc5ba72c7a67e",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Request": "Illuminate\\Http\\Request",
+        "Requests": "App\\Http\\Requests",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "ChangePassword": "App\\Http\\Contracts\\ChangePassword"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Contracts\\ChangePassword": "App\\Http\\Contracts\\ChangePassword"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "changePassword": {
+            "name": "changePassword",
+            "line": 19,
+            "short_desc": "Changes user password",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "currentPassword": {
+                    "name": "currentPassword",
+                    "line": 19,
+                    "short_desc": "[User current password]",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\Http\\Controllers\\[string]",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "newPassword": {
+                    "name": "newPassword",
+                    "line": 19,
+                    "short_desc": "[User new password]",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\Http\\Controllers\\[string]",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "confirmPassword": {
+                    "name": "confirmPassword",
+                    "line": 19,
+                    "short_desc": "[User confirm password]",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\Http\\Controllers\\[string]",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

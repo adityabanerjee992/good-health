@@ -1,0 +1,302 @@
+{
+    "name": "App\\Http\\Controllers\\Admin\\AuthController",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Admin",
+    "file": "app\/Http\/Controllers\/Admin\/AuthController.php",
+    "relative_file": null,
+    "hash": "a010f3e1fb9fba3bf71df8b5a9c22b8cc112fd32",
+    "parent": "App\\Http\\Controllers\\Admin\\BaseController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Sentinel": "Sentinel",
+        "View": "View",
+        "Validator": "Validator",
+        "Input": "Input",
+        "Session": "Session",
+        "Redirect": "Redirect",
+        "Lang": "Lang",
+        "URL": "URL",
+        "NotActivatedException": "Cartalyst\\Sentinel\\Checkpoints\\NotActivatedException",
+        "ThrottlingException": "Cartalyst\\Sentinel\\Checkpoints\\ThrottlingException",
+        "Reminder": "Reminder",
+        "Mail": "Mail"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getSignin": {
+            "name": "getSignin",
+            "line": 23,
+            "short_desc": "Account sign in.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "postSignin": {
+            "name": "postSignin",
+            "line": 42,
+            "short_desc": "Account sign in form processing.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Redirect",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "postSignup": {
+            "name": "postSignup",
+            "line": 88,
+            "short_desc": "Account sign up form processing.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Redirect",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getActivate": {
+            "name": "getActivate",
+            "line": 167,
+            "short_desc": "User account activation page.",
+            "long_desc": "",
+            "hint": [],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "userId": {
+                    "name": "userId",
+                    "line": 167,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\Http\\Controllers\\Admin\\number",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "activationCode": {
+                    "name": "activationCode",
+                    "line": 167,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "postForgotPassword": {
+            "name": "postForgotPassword",
+            "line": 193,
+            "short_desc": "Forgot password form processing page.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Redirect",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getForgotPasswordConfirm": {
+            "name": "getForgotPasswordConfirm",
+            "line": 247,
+            "short_desc": "Forgot Password Confirmation page.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "userId": {
+                    "name": "userId",
+                    "line": 247,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\Http\\Controllers\\Admin\\number",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "passwordResetCode": {
+                    "name": "passwordResetCode",
+                    "line": 247,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "postForgotPasswordConfirm": {
+            "name": "postForgotPasswordConfirm",
+            "line": 267,
+            "short_desc": "Forgot Password Confirmation form processing page.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Redirect",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "userId": {
+                    "name": "userId",
+                    "line": 267,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\Http\\Controllers\\Admin\\number",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "passwordResetCode": {
+                    "name": "passwordResetCode",
+                    "line": 267,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getLogout": {
+            "name": "getLogout",
+            "line": 300,
+            "short_desc": "Logout page.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Redirect",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "postRegister2": {
+            "name": "postRegister2",
+            "line": 314,
+            "short_desc": "Account sign up form processing for register2 page",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Redirect",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

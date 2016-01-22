@@ -1,0 +1,368 @@
+{
+    "name": "App\\Http\\Controllers\\Admin\\CustomerController",
+    "line": 14,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Admin",
+    "file": "app\/Http\/Controllers\/Admin\/CustomerController.php",
+    "relative_file": null,
+    "hash": "12c08d84061ea3cc2700447b759f01b502232801",
+    "parent": "App\\Http\\Controllers\\Admin\\BaseController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Order": "App\\Order",
+        "Customer": "App\\Customer",
+        "Requests": "App\\Http\\Requests",
+        "Flash": "Laracasts\\Flash\\Flash",
+        "Request": "Illuminate\\Http\\Request",
+        "Event": "Illuminate\\Support\\Facades\\Event",
+        "CustomerAccountActivated": "App\\Events\\CustomerAccountActivated",
+        "CustomerAccountSuspended": "App\\Events\\CustomerAccountSuspended",
+        "Redirect": "Illuminate\\Support\\Facades\\Redirect",
+        "JoshController": "App\\Http\\Controllers\\Admin\\JoshController"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getIndex": {
+            "name": "getIndex",
+            "line": 35,
+            "short_desc": "Show a list of all the customers.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCreate": {
+            "name": "getCreate",
+            "line": 53,
+            "short_desc": "Create new user",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "postCreate": {
+            "name": "postCreate",
+            "line": 67,
+            "short_desc": "User create form processing.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Support\\Facades\\Redirect",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getEdit": {
+            "name": "getEdit",
+            "line": 161,
+            "short_desc": "User update.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 161,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "postEdit": {
+            "name": "postEdit",
+            "line": 173,
+            "short_desc": "User update form processing page.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Support\\Facades\\Redirect",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "\"2\" @param tags are expected but only \"1\" found"
+            ],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 173,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\Illuminate\\Http\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Illuminate\\Http\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "id": {
+                    "name": "id",
+                    "line": 173,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getDeletedCustomers": {
+            "name": "getDeletedCustomers",
+            "line": 217,
+            "short_desc": "Show a list of all the deleted users.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getModalDelete": {
+            "name": "getModalDelete",
+            "line": 234,
+            "short_desc": "Delete Confirm",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 234,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "destroy": {
+            "name": "destroy",
+            "line": 257,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 257,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRestore": {
+            "name": "getRestore",
+            "line": 276,
+            "short_desc": "Restore a deleted customer.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Support\\Facades\\Redirect",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 276,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "show": {
+            "name": "show",
+            "line": 297,
+            "short_desc": "Display specified user profile.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 297,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getUserAccess": {
+            "name": "getUserAccess",
+            "line": 309,
+            "short_desc": "Get user access state",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getAdminOnlyAccess": {
+            "name": "getAdminOnlyAccess",
+            "line": 328,
+            "short_desc": "Show View or redirect to 404",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

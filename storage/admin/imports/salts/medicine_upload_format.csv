@@ -1,0 +1,9 @@
+SKU,Medicine Name,Manufacturer,Price,Salts (with Strength in comma separated value),Therapeutic Class,Unit,form type,Prescription Drug?
+MED0001,Crocin Advanced,GlaxoSmithcline,20,"Paracetamol
+IP
+500 mg, 
+Caffeine
+IP (as anhydrous)
+25 mg, Phenylephrine
+HCl IP
+5 mg",Anti-pyretic,1 Strip,Tablets,No

@@ -1,0 +1,145 @@
+{
+    "name": "App\\Http\\Controllers\\Api\\Contracts\\Product",
+    "line": 3,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Api\\Contracts",
+    "file": "app\/Http\/Controllers\/Api\/Contracts\/Product.php",
+    "relative_file": null,
+    "hash": "ca7fe1a441ca16ea54452f13c791ab50d1fab784",
+    "parent": null,
+    "modifiers": "Stmt_Interface",
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "search": {
+            "name": "search",
+            "line": 12,
+            "short_desc": "Gives back the search results for a given product query",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "\"2\" @param tags are expected but only \"1\" found"
+            ],
+            "parameters": {
+                "query": {
+                    "name": "query",
+                    "line": 12,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "productTransformer": {
+                    "name": "productTransformer",
+                    "line": 12,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Api\\Contracts\\ProductTransformer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "ProductTransformer",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "all": {
+            "name": "all",
+            "line": 19,
+            "short_desc": "Get all products",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "productTransformer": {
+                    "name": "productTransformer",
+                    "line": 19,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Api\\Contracts\\ProductTransformer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "ProductTransformer",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "show": {
+            "name": "show",
+            "line": 27,
+            "short_desc": "Get details of particular product",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "productDetailsTransformer": {
+                    "name": "productDetailsTransformer",
+                    "line": 27,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Api\\Contracts\\ProductDetailsTransformer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "ProductDetailsTransformer",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

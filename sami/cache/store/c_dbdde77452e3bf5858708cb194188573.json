@@ -1,0 +1,69 @@
+{
+    "name": "App\\Http\\Controllers\\Api\\LoginController",
+    "line": 13,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Api",
+    "file": "app\/Http\/Controllers\/Api\/LoginController.php",
+    "relative_file": null,
+    "hash": "f41a10b8a1445c1aa1e8da896acd2c5b28136642",
+    "parent": "App\\Http\\Controllers\\Api\\ApiController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Auth": "Auth",
+        "Request": "Request",
+        "Response": "Response",
+        "Order": "App\\Order",
+        "Customer": "App\\Customer",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "Validator": "Illuminate\\Support\\Facades\\Validator",
+        "ApiController": "App\\Http\\Controllers\\Api\\ApiController",
+        "LoginContract": "App\\Http\\Controllers\\Api\\Contracts\\Login"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Controllers\\Api\\Contracts\\Login": "App\\Http\\Controllers\\Api\\Contracts\\Login"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 15,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "login": {
+            "name": "login",
+            "line": 23,
+            "short_desc": "Login the user",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,96 @@
+{
+    "name": "App\\Http\\Controllers\\SearchController",
+    "line": 13,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/Http\/Controllers\/SearchController.php",
+    "relative_file": null,
+    "hash": "59d66e63ee118183cb281224b50a76376e1251d8",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Log": "Log",
+        "Request": "Request",
+        "Response": "Response",
+        "Product": "App\\Product",
+        "Collection": "Illuminate\\Support\\Collection",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "ProductTrait": "App\\Http\\Controllers\\Traits\\Product"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "App\\Http\\Controllers\\Traits\\Product": "App\\Http\\Controllers\\Traits\\Product"
+    },
+    "properties": [],
+    "methods": {
+        "postSearch": {
+            "name": "postSearch",
+            "line": 27,
+            "short_desc": "Gives back the search results for a given product query",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Illuminate\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "query": {
+                    "name": "query",
+                    "line": 27,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "fullSearch": {
+            "name": "fullSearch",
+            "line": 40,
+            "short_desc": "Gives back the search results for a given product query",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Illuminate\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "query": {
+                    "name": "query",
+                    "line": 40,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

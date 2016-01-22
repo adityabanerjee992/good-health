@@ -1,0 +1,23 @@
+{
+    "name": "App\\Http\\Controllers\\Api\\Contracts\\DocumentUpload",
+    "line": 3,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Api\\Contracts",
+    "file": "app\/Http\/Controllers\/Api\/Contracts\/DocumentUpload.php",
+    "relative_file": null,
+    "hash": "bd7748bebc1e19ee0b680e11edd522c0564ce552",
+    "parent": null,
+    "modifiers": "Stmt_Interface",
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

@@ -1,0 +1,145 @@
+{
+    "name": "App\\Http\\Controllers\\SaltsController",
+    "line": 18,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/Http\/Controllers\/SaltsController.php",
+    "relative_file": null,
+    "hash": "03f4f3ceeb2c1d52d249b6930f57c75d3f36c212",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Request": "Illuminate\\Http\\Request",
+        "Requests": "App\\Http\\Requests",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "Ailment": "App\\Ailment",
+        "Product": "App\\Product",
+        "Salt": "App\\Salt",
+        "Classes": "App\\Classes",
+        "Company": "App\\Company",
+        "URL": "URL",
+        "SaltContract": "App\\Http\\Contracts\\Salt"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Contracts\\Salt": "App\\Http\\Contracts\\Salt"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getSaltsByAilments": {
+            "name": "getSaltsByAilments",
+            "line": 25,
+            "short_desc": "Get salts by ailment id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\\/Illuminate\/View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 25,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSaltsByClass": {
+            "name": "getSaltsByClass",
+            "line": 48,
+            "short_desc": "Get salts by class id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\\/Illuminate\/View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 48,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getSalts": {
+            "name": "getSalts",
+            "line": 73,
+            "short_desc": "Get the salts related to a particular product",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "product": {
+                    "name": "product",
+                    "line": 73,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\Http\\Controllers\\App\/Product",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

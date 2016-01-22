@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow, all" />
+    <title>App\Http\Controllers\CartController | Goodhealth Code Document</title>
+
+            <link rel="stylesheet" type="text/css" href="../../../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/sami.css">
+        <script src="../../../js/jquery-1.11.1.min.js"></script>
+        <script src="../../../js/bootstrap.min.js"></script>
+        <script src="../../../js/typeahead.min.js"></script>
+        <script src="../../../sami.js"></script>
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    
+    
+    </head>
+
+    <body id="class" data-name="class:App_Http_Controllers_CartController" data-root-path="../../../">
+            <div id="content">
+        <div id="left-column">
+                <div id="control-panel">
+                <form id="search-form" action="../../../search.html" method="GET">
+            <span class="glyphicon glyphicon-search"></span>
+            <input name="search"
+                   class="typeahead form-control"
+                   type="search"
+                   placeholder="Search">
+        </form>
+    </div>
+
+                <div id="api-tree"></div>
+
+        </div>
+        <div id="right-column">
+                <nav id="site-nav" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-elements">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../../../index.html">Goodhealth Code Document</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-elements">
+                <ul class="nav navbar-nav">
+                    <li><a href="../../../classes.html">Classes</a></li>
+                                            <li><a href="../../../namespaces.html">Namespaces</a></li>
+                                        <li><a href="../../../interfaces.html">Interfaces</a></li>
+                    <li><a href="../../../traits.html">Traits</a></li>
+                    <li><a href="../../../doc-index.html">Index</a></li>
+                    <li><a href="../../../search.html">Search</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+                        <div class="namespace-breadcrumbs">
+            <ol class="breadcrumb">
+                <li><span class="label label-default">class</span></li>
+                                                            <li><a href="../../../App.html">App</a></li>
+                                        <li><a href="../../../App/Http.html">Http</a></li>
+                                        <li><a href="../../../App/Http/Controllers.html">Controllers</a></li>
+    
+                <li>CartController</li>
+            </ol>
+        </div>
+                <div id="page-content">
+                
+    <div class="page-header">
+        <h1>CartController</h1>
+    </div>
+
+    <p>    class
+    <strong>CartController</strong>        extends <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a>        implements
+        <abbr title="App\Http\Contracts\Cart">Cart</abbr>
+</p>
+
+    
+            <h2>Traits</h2>
+
+        
+    <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-6">
+                                            <a href="../../../App/Http/Controllers/Traits/Order.html"><abbr title="App\Http\Controllers\Traits\Order">App\Http\Controllers\Traits\Order</abbr></a>
+                                    </div>
+                <div class="col-md-6">
+                    
+
+                </div>
+            </div>
+            </div>
+    
+    
+    
+            <h2>Methods</h2>
+
+            <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method___construct">__construct</a>(
+    <abbr title="App\Http\Controllers\Traits\App\Http\Contracts\Order">Order</abbr> $order)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/Traits/Order.html#method___construct"><abbr title="App\Http\Controllers\Traits\Order">Order</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getUploadPrescription">getUploadPrescription</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getUploadPrescription"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getChoosePrescription">getChoosePrescription</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getChoosePrescription"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_linkPrescriptionToOrder">linkPrescriptionToOrder</a>($id)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_linkPrescriptionToOrder"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_linkAddressToOrder">linkAddressToOrder</a>($id)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_linkAddressToOrder"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_ifStoreExists">ifStoreExists</a>($pincode)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_ifStoreExists"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_postUploadPrescription">postUploadPrescription</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_postUploadPrescription"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_address">address</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_address"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_orderSummary">orderSummary</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_orderSummary"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_orderConfirmation">orderConfirmation</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_orderConfirmation"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_checkout">checkout</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_checkout"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addProductToCart">addProductToCart</a>($id, $quantity = null)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_addProductToCart"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_cartReorder">cartReorder</a>()
+                                            <p>Reorder the order with the given
+order id</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_cartReorder"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_updateProductInCart">updateProductInCart</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_updateProductInCart"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_deleteProductFromCart">deleteProductFromCart</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_deleteProductFromCart"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCartDataUserLoggedIn">getCartDataUserLoggedIn</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getCartDataUserLoggedIn"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCartDataUserNotLoggedIn">getCartDataUserNotLoggedIn</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getCartDataUserNotLoggedIn"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addProductInCartToDb">addProductInCartToDb</a>($cartData, $cookie)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_addProductInCartToDb"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_updateProductInCartToDb">updateProductInCartToDb</a>($rowId, $cookie)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_updateProductInCartToDb"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_deleteProductFromDb">deleteProductFromDb</a>($cartData, $cookie)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_deleteProductFromDb"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCartDataByToken">getCartDataByToken</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getCartDataByToken"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCartDataBYUid">getCartDataBYUid</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getCartDataBYUid"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCartDataFromDbByToken">getCartDataFromDbByToken</a>($token)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getCartDataFromDbByToken"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCartDataFromDbByUidAndUpdateToken">getCartDataFromDbByUidAndUpdateToken</a>($uid, $token)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getCartDataFromDbByUidAndUpdateToken"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getShowResponse">getShowResponse</a>($cartData = null, $itemsCount = null, $cookie = null)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getShowResponse"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getScheduledDrugsFromCart">getScheduledDrugsFromCart</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getScheduledDrugsFromCart"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <abbr title="Illuminate\Contracts\Validation\Validator">Validator</abbr>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_validator">validator</a>($input)
+                                            <p>Get a validator for an incoming request.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_validator"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <abbr title="App\Http\Controllers\Illuminate\Contracts\View">View</abbr>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_show">show</a>()
+                                            <p>Display or show user cart</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <abbr title="App\Http\Controllers\Response">Response</abbr>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_add">add</a>($productId)
+                                            <p>Add product to cart</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <abbr title="App\Http\Controllers\Response">Response</abbr>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_update">update</a>()
+                                            <p>Update user cart</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <abbr title="App\Http\Controllers\Response">Response</abbr>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_destroy">destroy</a>($id)
+                                            <p>Remove the product from user's cart</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+            </div>
+
+
+        <h2>Details</h2>
+
+            <div id="method-details">
+                    <div class="method-item">
+                    <h3 id="method___construct">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/Traits/Order.html#method___construct"><abbr title="App\Http\Controllers\Traits\Order">Order</abbr></a> at line 28</div>
+        <code>                    
+    
+    <strong>__construct</strong>(
+    <abbr title="App\Http\Controllers\Traits\App\Http\Contracts\Order">Order</abbr> $order)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    <abbr title="App\Http\Controllers\Traits\App\Http\Contracts\Order">Order</abbr></td>
+                <td>$order</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getUploadPrescription">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getUploadPrescription"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 78</div>
+        <code>                    
+    
+    <strong>getUploadPrescription</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getChoosePrescription">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getChoosePrescription"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 93</div>
+        <code>                    
+    
+    <strong>getChoosePrescription</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_linkPrescriptionToOrder">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_linkPrescriptionToOrder"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 111</div>
+        <code>                    
+    
+    <strong>linkPrescriptionToOrder</strong>($id)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_linkAddressToOrder">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_linkAddressToOrder"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 179</div>
+        <code>                    
+    
+    <strong>linkAddressToOrder</strong>($id)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_ifStoreExists">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_ifStoreExists"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 216</div>
+        <code>                    
+    
+    <strong>ifStoreExists</strong>($pincode)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$pincode</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_postUploadPrescription">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_postUploadPrescription"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 236</div>
+        <code>                    
+    
+    <strong>postUploadPrescription</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_address">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_address"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 291</div>
+        <code>                    
+    
+    <strong>address</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_orderSummary">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_orderSummary"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 298</div>
+        <code>                    
+    
+    <strong>orderSummary</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_orderConfirmation">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_orderConfirmation"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 309</div>
+        <code>                    
+    
+    <strong>orderConfirmation</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_checkout">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_checkout"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 411</div>
+        <code>                    
+    
+    <strong>checkout</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addProductToCart">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_addProductToCart"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 440</div>
+        <code>                    
+    
+    <strong>addProductToCart</strong>($id, $quantity = null)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$id</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$quantity</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_cartReorder">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_cartReorder"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 503</div>
+        <code>                    
+    
+    <strong>cartReorder</strong>()</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Reorder the order with the given
+order id</p>                                </div>
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_updateProductInCart">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_updateProductInCart"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 594</div>
+        <code>                    
+    
+    <strong>updateProductInCart</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_deleteProductFromCart">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_deleteProductFromCart"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 616</div>
+        <code>                    
+    
+    <strong>deleteProductFromCart</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCartDataUserLoggedIn">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getCartDataUserLoggedIn"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 637</div>
+        <code>                    
+    
+    <strong>getCartDataUserLoggedIn</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCartDataUserNotLoggedIn">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getCartDataUserNotLoggedIn"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 652</div>
+        <code>                    
+    
+    <strong>getCartDataUserNotLoggedIn</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addProductInCartToDb">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_addProductInCartToDb"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 663</div>
+        <code>                    
+    
+    <strong>addProductInCartToDb</strong>($cartData, $cookie)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$cartData</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$cookie</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_updateProductInCartToDb">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_updateProductInCartToDb"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 668</div>
+        <code>                    
+    
+    <strong>updateProductInCartToDb</strong>($rowId, $cookie)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$rowId</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$cookie</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_deleteProductFromDb">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_deleteProductFromDb"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 680</div>
+        <code>                    
+    
+    <strong>deleteProductFromDb</strong>($cartData, $cookie)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$cartData</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$cookie</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCartDataByToken">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getCartDataByToken"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 690</div>
+        <code>                    
+    
+    <strong>getCartDataByToken</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCartDataBYUid">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getCartDataBYUid"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 721</div>
+        <code>                    
+    
+    <strong>getCartDataBYUid</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCartDataFromDbByToken">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getCartDataFromDbByToken"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 801</div>
+        <code>                    
+    
+    <strong>getCartDataFromDbByToken</strong>($token)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$token</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCartDataFromDbByUidAndUpdateToken">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getCartDataFromDbByUidAndUpdateToken"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 807</div>
+        <code>                    
+    
+    <strong>getCartDataFromDbByUidAndUpdateToken</strong>($uid, $token)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$uid</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$token</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getShowResponse">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getShowResponse"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 812</div>
+        <code>                    
+    
+    <strong>getShowResponse</strong>($cartData = null, $itemsCount = null, $cookie = null)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$cartData</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$itemsCount</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$cookie</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getScheduledDrugsFromCart">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_getScheduledDrugsFromCart"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 833</div>
+        <code>                    
+    
+    <strong>getScheduledDrugsFromCart</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_validator">
+        <div class="location">in 
+    <a href="../../../App/Http/Controllers/BaseControllers/BaseCartController.html#method_validator"><abbr title="App\Http\Controllers\BaseControllers\BaseCartController">BaseCartController</abbr></a> at line 856</div>
+        <code>                    
+    <abbr title="Illuminate\Contracts\Validation\Validator">Validator</abbr>
+    <strong>validator</strong>($input)</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Get a validator for an incoming request.</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$input</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <abbr title="Illuminate\Contracts\Validation\Validator">Validator</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_show">
+        <div class="location">at line 15</div>
+        <code>                    
+    <abbr title="App\Http\Controllers\Illuminate\Contracts\View">View</abbr>
+    <strong>show</strong>()</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Display or show user cart</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <abbr title="App\Http\Controllers\Illuminate\Contracts\View">View</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_add">
+        <div class="location">at line 33</div>
+        <code>                    
+    <abbr title="App\Http\Controllers\Response">Response</abbr>
+    <strong>add</strong>($productId)</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Add product to cart</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$productId</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <abbr title="App\Http\Controllers\Response">Response</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_update">
+        <div class="location">at line 51</div>
+        <code>                    
+    <abbr title="App\Http\Controllers\Response">Response</abbr>
+    <strong>update</strong>()</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Update user cart</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <abbr title="App\Http\Controllers\Response">Response</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_destroy">
+        <div class="location">at line 61</div>
+        <code>                    
+    <abbr title="App\Http\Controllers\Response">Response</abbr>
+    <strong>destroy</strong>($id)</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Remove the product from user's cart</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <abbr title="App\Http\Controllers\Response">Response</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+            </div>
+
+    
+            </div>
+                <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/">Sami, the API Documentation Generator</a>.
+    </div>
+
+        </div>
+    </div>
+    </body>
+
+</html>

@@ -1,0 +1,50 @@
+{
+    "name": "App\\Http\\Controllers\\HomeController",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/Http\/Controllers\/HomeController.php",
+    "relative_file": null,
+    "hash": "9f8a7f7594c35b35170f477d9b88f913e710d57c",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Route": "Route",
+        "Requests": "App\\Http\\Requests",
+        "Request": "Illuminate\\Http\\Request",
+        "Controller": "App\\Http\\Controllers\\Controller"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "index": {
+            "name": "index",
+            "line": 18,
+            "short_desc": "Displays The Home View",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Illuminate\\Contracts\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "\"0\" @param tags are expected but only \"1\" found"
+            ],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

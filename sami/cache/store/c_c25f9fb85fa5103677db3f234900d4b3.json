@@ -1,0 +1,270 @@
+{
+    "name": "App\\Http\\Controllers\\Admin\\BlogCategoryController",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Admin",
+    "file": "app\/Http\/Controllers\/Admin\/BlogCategoryController.php",
+    "relative_file": null,
+    "hash": "213cd8a3a9f560cd689d3f2857cd1141bbdb7fa1",
+    "parent": "App\\Http\\Controllers\\Admin\\BaseController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Requests": "App\\Http\\Requests",
+        "BlogCategoryRequest": "App\\Http\\Requests\\BlogCategoryRequest",
+        "BlogCategory": "App\\BlogCategory"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getIndex": {
+            "name": "getIndex",
+            "line": 14,
+            "short_desc": "Display a listing of the resource.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCreate": {
+            "name": "getCreate",
+            "line": 27,
+            "short_desc": "Show the form for creating a new resource.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "postCreate": {
+            "name": "postCreate",
+            "line": 37,
+            "short_desc": "Store a newly created resource in storage.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 37,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\Http\\Requests\\BlogCategoryRequest",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Requests\\BlogCategoryRequest",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getEdit": {
+            "name": "getEdit",
+            "line": 50,
+            "short_desc": "Show the form for editing the specified resource.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "The \"id\" @param tag variable name is wrong (should be \"blogcategory\")"
+            ],
+            "parameters": {
+                "blogcategory": {
+                    "name": "blogcategory",
+                    "line": 50,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\BlogCategory",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\BlogCategory",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "postEdit": {
+            "name": "postEdit",
+            "line": 61,
+            "short_desc": "Update the specified resource in storage.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "\"2\" @param tags are expected but only \"1\" found"
+            ],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 61,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\Http\\Requests\\BlogCategoryRequest",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Requests\\BlogCategoryRequest",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "blogcategory": {
+                    "name": "blogcategory",
+                    "line": 61,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\BlogCategory",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\BlogCategory",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getModalDelete": {
+            "name": "getModalDelete",
+            "line": 73,
+            "short_desc": "Remove blog.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "The \"website\" @param tag variable name is wrong (should be \"blogcategory\")"
+            ],
+            "parameters": {
+                "blogcategory": {
+                    "name": "blogcategory",
+                    "line": 73,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\BlogCategory",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\BlogCategory",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getDelete": {
+            "name": "getDelete",
+            "line": 92,
+            "short_desc": "Remove the specified resource from storage.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "The \"id\" @param tag variable name is wrong (should be \"blogcategory\")"
+            ],
+            "parameters": {
+                "blogcategory": {
+                    "name": "blogcategory",
+                    "line": 92,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\BlogCategory",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\BlogCategory",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

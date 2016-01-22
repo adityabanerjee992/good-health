@@ -1,0 +1,101 @@
+{
+    "name": "App\\Http\\Controllers\\Api\\DocumentUploadController",
+    "line": 12,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Api",
+    "file": "app\/Http\/Controllers\/Api\/DocumentUploadController.php",
+    "relative_file": null,
+    "hash": "bd26e3acee43691ef12971e462486b7823236854",
+    "parent": "App\\Http\\Controllers\\Api\\ApiController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Auth": "Auth",
+        "Request": "Request",
+        "Response": "Response",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "Order": "App\\Http\\Contracts\\Order",
+        "ApiController": "App\\Http\\Controllers\\Api\\ApiController",
+        "DocumentUpload": "App\\Http\\Controllers\\Traits\\DocumentUpload",
+        "DocumentUploadContract": "App\\Http\\Controllers\\Api\\Contracts\\DocumentUpload"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Controllers\\Api\\Contracts\\DocumentUpload": "App\\Http\\Controllers\\Api\\Contracts\\DocumentUpload"
+    },
+    "traits": {
+        "App\\Http\\Controllers\\Traits\\DocumentUpload": "App\\Http\\Controllers\\Traits\\DocumentUpload"
+    },
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 25,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "order": {
+                    "name": "order",
+                    "line": 25,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Api\\App\\Http\\Contracts\\Order",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Contracts\\Order",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "store": {
+            "name": "store",
+            "line": 30,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getOrder": {
+            "name": "getOrder",
+            "line": 77,
+            "short_desc": "Gets the Order object used for communicating\nwith the order interface or\ncontract.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Contracts\\Order",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,234 @@
+{
+    "name": "App\\Http\\Controllers\\Admin\\GroupsController",
+    "line": 12,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Admin",
+    "file": "app\/Http\/Controllers\/Admin\/GroupsController.php",
+    "relative_file": null,
+    "hash": "2cecfaad40c672f5c6932e1982ea14cf5b720fc6",
+    "parent": "App\\Http\\Controllers\\Admin\\BaseController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Sentinel": "Sentinel",
+        "View": "View",
+        "Validator": "Validator",
+        "Input": "Input",
+        "Redirect": "Redirect",
+        "Lang": "Lang",
+        "URL": "URL",
+        "PermissionsListManager": "App\\Http\\Utilities\\PermissionsListManager"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getIndex": {
+            "name": "getIndex",
+            "line": 19,
+            "short_desc": "Show a list of all the groups.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCreate": {
+            "name": "getCreate",
+            "line": 32,
+            "short_desc": "Group create.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "postCreate": {
+            "name": "postCreate",
+            "line": 44,
+            "short_desc": "Group create form processing.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Redirect",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getEdit": {
+            "name": "getEdit",
+            "line": 87,
+            "short_desc": "Group update.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 87,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "postEdit": {
+            "name": "postEdit",
+            "line": 108,
+            "short_desc": "Group update form processing page.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Redirect",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 108,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getModalDelete": {
+            "name": "getModalDelete",
+            "line": 153,
+            "short_desc": "Delete confirmation for the given group.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 153,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getDelete": {
+            "name": "getDelete",
+            "line": 176,
+            "short_desc": "Delete the given group.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Redirect",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 176,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

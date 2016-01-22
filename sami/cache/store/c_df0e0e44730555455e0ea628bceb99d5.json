@@ -1,0 +1,67 @@
+{
+    "name": "App\\Http\\Controllers\\UnitController",
+    "line": 11,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/Http\/Controllers\/UnitController.php",
+    "relative_file": null,
+    "hash": "6a6734acde2d3e37a304dac3955865af280dedd9",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Request": "Illuminate\\Http\\Request",
+        "Requests": "App\\Http\\Requests",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "UnitContract": "App\\Http\\Contracts\\Unit"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Contracts\\Unit": "App\\Http\\Contracts\\Unit"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getUnit": {
+            "name": "getUnit",
+            "line": 20,
+            "short_desc": "Get the unit related to the product",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "product": {
+                    "name": "product",
+                    "line": 20,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\Http\\Controllers\\App\\Product",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

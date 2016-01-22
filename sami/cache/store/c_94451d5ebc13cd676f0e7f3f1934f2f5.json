@@ -1,0 +1,67 @@
+{
+    "name": "App\\Http\\Controllers\\AilmentController",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/Http\/Controllers\/AilmentController.php",
+    "relative_file": null,
+    "hash": "8771a4f4e92838dba5a0a4f877bbbee3102ba2d5",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Requests": "App\\Http\\Requests",
+        "Request": "Illuminate\\Http\\Request",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "AilmentContract": "App\\Http\\Contracts\\Ailment"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Contracts\\Ailment": "App\\Http\\Contracts\\Ailment"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getAilments": {
+            "name": "getAilments",
+            "line": 16,
+            "short_desc": "Get the ailments related to a particular product",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "product": {
+                    "name": "product",
+                    "line": 16,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\Http\\Controllers\\App\/Product",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

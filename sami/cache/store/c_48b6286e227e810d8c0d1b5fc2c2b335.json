@@ -1,0 +1,556 @@
+{
+    "name": "App\\Http\\Controllers\\BaseControllers\\BaseOrderController",
+    "line": 13,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\BaseControllers",
+    "file": "app\/Http\/Controllers\/BaseControllers\/BaseOrderController.php",
+    "relative_file": null,
+    "hash": "89a2ef609e12d8655d1a19981fa5f96336f7db32",
+    "parent": "Illuminate\\Routing\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Auth": "Auth",
+        "Session": "Session",
+        "Requests": "App\\Http\\Requests",
+        "Order": "App\\Order",
+        "Request": "Illuminate\\Http\\Request",
+        "OrderDetails": "App\\OrderDetails",
+        "OrderContract": "App\\Http\\Contracts\\Order",
+        "BaseController": "Illuminate\\Routing\\Controller",
+        "Collection": "Illuminate\\Database\\Eloquent\\Collection"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "orderDetailsEmpty": {
+            "name": "orderDetailsEmpty",
+            "line": 15,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "order_id": {
+                    "name": "order_id",
+                    "line": 15,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "updateOrderUserId": {
+            "name": "updateOrderUserId",
+            "line": 38,
+            "short_desc": "[updateOrderUserId description]",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\BaseControllers\\[type]",
+                    false
+                ]
+            ],
+            "hint_desc": "[description]",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "token": {
+                    "name": "token",
+                    "line": 38,
+                    "short_desc": "[description]",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\Http\\Controllers\\BaseControllers\\[type]",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOrderId": {
+            "name": "getOrderId",
+            "line": 62,
+            "short_desc": "Get order id by User Id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "integer",
+                    false
+                ]
+            ],
+            "hint_desc": "$order_id",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "customer_id": {
+                    "name": "customer_id",
+                    "line": 62,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\Http\\Controllers\\BaseControllers\\interger",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOrderDetails": {
+            "name": "getOrderDetails",
+            "line": 74,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 74,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOrderDetailsByUserIdAndUpdateToken": {
+            "name": "getOrderDetailsByUserIdAndUpdateToken",
+            "line": 89,
+            "short_desc": "Get order details by uid",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Database\\Eloquent\\Collection",
+                    false
+                ]
+            ],
+            "hint_desc": "$orderDetails",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "uid": {
+                    "name": "uid",
+                    "line": 89,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\Http\\Controllers\\BaseControllers\\interger",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "token": {
+                    "name": "token",
+                    "line": 89,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "checkIfOrderExist": {
+            "name": "checkIfOrderExist",
+            "line": 120,
+            "short_desc": "Checks if order exists or not",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "orderId": {
+                    "name": "orderId",
+                    "line": 120,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOrderIdByToken": {
+            "name": "getOrderIdByToken",
+            "line": 131,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "token": {
+                    "name": "token",
+                    "line": 131,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "checkIfOrderDetailsExist": {
+            "name": "checkIfOrderDetailsExist",
+            "line": 148,
+            "short_desc": "Check if order details exist",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "order_id": {
+                    "name": "order_id",
+                    "line": 148,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "product_code": {
+                    "name": "product_code",
+                    "line": 148,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOrderQuote": {
+            "name": "getOrderQuote",
+            "line": 170,
+            "short_desc": "This function checks for the previous quotes\nif any exist for the same user id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Database\\Eloquent\\Collection",
+                    false
+                ]
+            ],
+            "hint_desc": "$order",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "customer_id": {
+                    "name": "customer_id",
+                    "line": 170,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "updateToken": {
+            "name": "updateToken",
+            "line": 193,
+            "short_desc": "Update the token in the orders table",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "order": {
+                    "name": "order",
+                    "line": 193,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Illuminate\\Database\\Eloquent\\Collection",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "token": {
+                    "name": "token",
+                    "line": 193,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "processCreateOrder": {
+            "name": "processCreateOrder",
+            "line": 219,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "cartData": {
+                    "name": "cartData",
+                    "line": 219,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "token": {
+                    "name": "token",
+                    "line": 219,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "isApi": {
+                    "name": "isApi",
+                    "line": 219,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "false",
+                    "is_by_ref": false
+                },
+                "customerId": {
+                    "name": "customerId",
+                    "line": 219,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "saveOrderDetails": {
+            "name": "saveOrderDetails",
+            "line": 262,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "order": {
+                    "name": "order",
+                    "line": 262,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "orderId": {
+                    "name": "orderId",
+                    "line": 262,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "cartData": {
+                    "name": "cartData",
+                    "line": 262,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "prepareOrderDetailsDataArray": {
+            "name": "prepareOrderDetailsDataArray",
+            "line": 291,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "orderId": {
+                    "name": "orderId",
+                    "line": 291,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "data": {
+                    "name": "data",
+                    "line": 291,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

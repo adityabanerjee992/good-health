@@ -1,0 +1,30 @@
+{
+    "name": "App\\Http\\Controllers\\Controller",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/Http\/Controllers\/Controller.php",
+    "relative_file": null,
+    "hash": "e655423169d814c5d0911e00682a3aaad68db115",
+    "parent": "Illuminate\\Routing\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "DispatchesJobs": "Illuminate\\Foundation\\Bus\\DispatchesJobs",
+        "BaseController": "Illuminate\\Routing\\Controller",
+        "ValidatesRequests": "Illuminate\\Foundation\\Validation\\ValidatesRequests"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "Illuminate\\Foundation\\Bus\\DispatchesJobs": "Illuminate\\Foundation\\Bus\\DispatchesJobs",
+        "Illuminate\\Foundation\\Validation\\ValidatesRequests": "Illuminate\\Foundation\\Validation\\ValidatesRequests"
+    },
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

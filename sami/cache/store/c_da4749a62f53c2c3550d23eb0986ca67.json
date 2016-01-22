@@ -1,0 +1,61 @@
+{
+    "name": "App\\Http\\Controllers\\PincodeController",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/Http\/Controllers\/PincodeController.php",
+    "relative_file": null,
+    "hash": "d996807e30cd0fbec7bb0dc7186426b42f45cb92",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Pincode": "App\\Pincode",
+        "Requests": "App\\Http\\Requests",
+        "Request": "Illuminate\\Http\\Request",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "Cookie": "Illuminate\\Support\\Facades\\Cookie"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "checkPincode": {
+            "name": "checkPincode",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 11,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Illuminate\\Http\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Illuminate\\Http\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

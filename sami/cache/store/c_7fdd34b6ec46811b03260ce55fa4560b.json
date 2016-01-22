@@ -1,0 +1,93 @@
+{
+    "name": "App\\Http\\Controllers\\Admin\\Contracts\\Salt",
+    "line": 4,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Admin\\Contracts",
+    "file": "app\/Http\/Controllers\/Admin\/Contracts\/Salt.php",
+    "relative_file": null,
+    "hash": "886f9343204ec43886fd20064a60556628c05c01",
+    "parent": null,
+    "modifiers": "Stmt_Interface",
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getAllSalts": {
+            "name": "getAllSalts",
+            "line": 11,
+            "short_desc": "Get all salts",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\Contracts\\Illuminate\\Contracts\\View\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getBulkUpload": {
+            "name": "getBulkUpload",
+            "line": 18,
+            "short_desc": "Get the salt bulk upload form",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\Contracts\\Illuminate\\Contracts\\View\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "postBulkUpload": {
+            "name": "postBulkUpload",
+            "line": 27,
+            "short_desc": "Handles the form post request of bulk upload",
+            "long_desc": "",
+            "hint": [],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 27,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\Contracts\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

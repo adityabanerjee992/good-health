@@ -1,0 +1,23 @@
+{
+    "name": "App\\Http\\Controllers\\Admin\\Contracts\\Product",
+    "line": 3,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Admin\\Contracts",
+    "file": "app\/Http\/Controllers\/Admin\/Contracts\/Product.php",
+    "relative_file": null,
+    "hash": "68b60a992ff1ac48929402dbef7bd5036410876c",
+    "parent": null,
+    "modifiers": "Stmt_Interface",
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

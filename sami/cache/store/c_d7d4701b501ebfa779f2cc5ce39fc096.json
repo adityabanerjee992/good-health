@@ -1,0 +1,290 @@
+{
+    "name": "App\\Http\\Controllers\\OrderController",
+    "line": 13,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/Http\/Controllers\/OrderController.php",
+    "relative_file": null,
+    "hash": "ced0bfc1b0c5ecda361e028c0d72f0078246b908",
+    "parent": "App\\Http\\Controllers\\BaseControllers\\BaseOrderController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Auth": "Auth",
+        "Session": "Session",
+        "Requests": "App\\Http\\Requests",
+        "Order": "App\\Order",
+        "Request": "Illuminate\\Http\\Request",
+        "OrderDetails": "App\\OrderDetails",
+        "OrderContract": "App\\Http\\Contracts\\Order",
+        "Collection": "Illuminate\\Database\\Eloquent\\Collection",
+        "BaseOrderController": "App\\Http\\Controllers\\BaseControllers\\BaseOrderController"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Contracts\\Order": "App\\Http\\Contracts\\Order"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "createOrder": {
+            "name": "createOrder",
+            "line": 24,
+            "short_desc": "Add order to orders table",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "\"4\" @param tags are expected but only \"3\" found"
+            ],
+            "parameters": {
+                "cartData": {
+                    "name": "cartData",
+                    "line": 24,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "token": {
+                    "name": "token",
+                    "line": 24,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "isApi": {
+                    "name": "isApi",
+                    "line": 24,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "false",
+                    "is_by_ref": false
+                },
+                "customerId": {
+                    "name": "customerId",
+                    "line": 24,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "updateOrderQuanity": {
+            "name": "updateOrderQuanity",
+            "line": 47,
+            "short_desc": "[updateOrderQuanity description]",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\[type]",
+                    false
+                ]
+            ],
+            "hint_desc": "[description]",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "\"4\" @param tags are expected but only \"2\" found"
+            ],
+            "parameters": {
+                "product_code": {
+                    "name": "product_code",
+                    "line": 47,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "order_id": {
+                    "name": "order_id",
+                    "line": 47,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                },
+                "quantity": {
+                    "name": "quantity",
+                    "line": 47,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "token": {
+                    "name": "token",
+                    "line": 47,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "deleteOrderDetails": {
+            "name": "deleteOrderDetails",
+            "line": 80,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "product_code": {
+                    "name": "product_code",
+                    "line": 80,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "order_id": {
+                    "name": "order_id",
+                    "line": 80,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                },
+                "quantity": {
+                    "name": "quantity",
+                    "line": 80,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "token": {
+                    "name": "token",
+                    "line": 80,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "NULL",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "deleteOrder": {
+            "name": "deleteOrder",
+            "line": 103,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "order_id": {
+                    "name": "order_id",
+                    "line": 103,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "udpateOrderData": {
+            "name": "udpateOrderData",
+            "line": 115,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "orderId": {
+                    "name": "orderId",
+                    "line": 115,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "orderData": {
+                    "name": "orderData",
+                    "line": 115,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

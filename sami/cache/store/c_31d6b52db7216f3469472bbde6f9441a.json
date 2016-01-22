@@ -1,0 +1,241 @@
+{
+    "name": "App\\Http\\Controllers\\Api\\UserAccountController",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Api",
+    "file": "app\/Http\/Controllers\/Api\/UserAccountController.php",
+    "relative_file": null,
+    "hash": "2d8f0f0023dec437d7551c21e78bf3086f224c67",
+    "parent": "App\\Http\\Controllers\\Api\\ApiController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Auth": "Auth",
+        "Response": "Response",
+        "Customer": "App\\Customer",
+        "User": "App\\User",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "Order": "App\\Http\\Controllers\\Traits\\Order",
+        "Request": "Illuminate\\Support\\Facades\\Request",
+        "ApiController": "App\\Http\\Controllers\\Api\\ApiController",
+        "AddressTransformer": "App\\Acme\\Transformers\\AddressTransformer",
+        "DocumentTransformer": "App\\Acme\\Transformers\\DocumentTransformer",
+        "UserAccountInformationTransformer": "App\\Acme\\Transformers\\UserAccountInformationTransformer",
+        "UserAccountContract": "App\\Http\\Controllers\\Api\\Contracts\\UserAccount"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Controllers\\Api\\Contracts\\UserAccount": "App\\Http\\Controllers\\Api\\Contracts\\UserAccount"
+    },
+    "traits": {
+        "App\\Http\\Controllers\\Traits\\Order": "App\\Http\\Controllers\\Traits\\Order"
+    },
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 37,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "documentTransformer": {
+                    "name": "documentTransformer",
+                    "line": 37,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Api\\App\\Acme\\Transformers\\DocumentTransformer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Acme\\Transformers\\DocumentTransformer",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "addressTransformer": {
+                    "name": "addressTransformer",
+                    "line": 38,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Api\\App\\Acme\\Transformers\\AddressTransformer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Acme\\Transformers\\AddressTransformer",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "userAccountInformationTransformer": {
+                    "name": "userAccountInformationTransformer",
+                    "line": 39,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Api\\App\\Acme\\Transformers\\UserAccountInformationTransformer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Acme\\Transformers\\UserAccountInformationTransformer",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "userDocuments": {
+            "name": "userDocuments",
+            "line": 51,
+            "short_desc": "Get user documents",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "userAddress": {
+            "name": "userAddress",
+            "line": 74,
+            "short_desc": "Get user address",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "userAccountInformation": {
+            "name": "userAccountInformation",
+            "line": 91,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "updateUserAccountInformation": {
+            "name": "updateUserAccountInformation",
+            "line": 104,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "changePassword": {
+            "name": "changePassword",
+            "line": 128,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getDocumentTransformer": {
+            "name": "getDocumentTransformer",
+            "line": 159,
+            "short_desc": "Gets the value of documentTransformer.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Acme\\Transformers\\DocumentTransformer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getAddressTransformer": {
+            "name": "getAddressTransformer",
+            "line": 183,
+            "short_desc": "Gets the value of addressTransformer.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Acme\\Transformers\\AddressTransformer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getUserAccountInformationTransformer": {
+            "name": "getUserAccountInformationTransformer",
+            "line": 207,
+            "short_desc": "Gets the value of userAccountInformationTransformer.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Acme\\Transformers\\AddressTransformer",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

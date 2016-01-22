@@ -1,0 +1,337 @@
+{
+    "name": "App\\Http\\Controllers\\Admin\\OrderController",
+    "line": 23,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Admin",
+    "file": "app\/Http\/Controllers\/Admin\/OrderController.php",
+    "relative_file": null,
+    "hash": "6bc60fd9a2385bcab20ae704ed7b2ad946dc6d10",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Flash": "Flash",
+        "Redirect": "Redirect",
+        "Sentinel": "Sentinel",
+        "Order": "App\\Order",
+        "Store": "App\\Store",
+        "Customer": "App\\Customer",
+        "Document": "App\\Document",
+        "OrderDetails": "App\\OrderDetails",
+        "Requests": "App\\Http\\Requests",
+        "Request": "Illuminate\\Http\\Request",
+        "OrderStatusUpdated": "App\\Events\\OrderStatusUpdated",
+        "DB": "Illuminate\\Support\\Facades\\DB",
+        "CustomerOrderRejected": "App\\Events\\CustomerOrderRejected",
+        "Event": "Illuminate\\Support\\Facades\\Event",
+        "Validator": "Illuminate\\Support\\Facades\\Validator",
+        "PrescriptionForOrderIsRequired": "App\\Events\\PrescriptionForOrderIsRequired",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "OrderTrait": "App\\Http\\Controllers\\Traits\\Order",
+        "Logistics": "App\\Http\\Controllers\\Admin\\Traits\\Logistics"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "App\\Http\\Controllers\\Traits\\Order": "App\\Http\\Controllers\\Traits\\Order",
+        "App\\Http\\Controllers\\Admin\\Traits\\Logistics": "App\\Http\\Controllers\\Admin\\Traits\\Logistics"
+    },
+    "properties": [],
+    "methods": {
+        "listAllOrders": {
+            "name": "listAllOrders",
+            "line": 38,
+            "short_desc": "List all orders",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\[type]",
+                    false
+                ]
+            ],
+            "hint_desc": "[description]",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "show": {
+            "name": "show",
+            "line": 57,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "orderId": {
+                    "name": "orderId",
+                    "line": 57,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getRejectOrder": {
+            "name": "getRejectOrder",
+            "line": 63,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "orderId": {
+                    "name": "orderId",
+                    "line": 63,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "postRejectOrder": {
+            "name": "postRejectOrder",
+            "line": 68,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 68,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\Illuminate\\Http\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Illuminate\\Http\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "askForPrescription": {
+            "name": "askForPrescription",
+            "line": 107,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "orderId": {
+                    "name": "orderId",
+                    "line": 107,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "askForPrescriptionUpdate": {
+            "name": "askForPrescriptionUpdate",
+            "line": 140,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "prescriptionId": {
+                    "name": "prescriptionId",
+                    "line": 140,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "orderId": {
+                    "name": "orderId",
+                    "line": 140,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getUpdateOrderStatus": {
+            "name": "getUpdateOrderStatus",
+            "line": 171,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "orderId": {
+                    "name": "orderId",
+                    "line": 171,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "postUpdateOrderStatus": {
+            "name": "postUpdateOrderStatus",
+            "line": 178,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 178,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\Illuminate\\Http\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Illuminate\\Http\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getEditOrder": {
+            "name": "getEditOrder",
+            "line": 221,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "orderId": {
+                    "name": "orderId",
+                    "line": 221,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "postEditOrder": {
+            "name": "postEditOrder",
+            "line": 253,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 253,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\Illuminate\\Http\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Illuminate\\Http\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "orderId": {
+                    "name": "orderId",
+                    "line": 253,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

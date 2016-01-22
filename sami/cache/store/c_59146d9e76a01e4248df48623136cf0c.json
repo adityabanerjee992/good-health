@@ -1,0 +1,175 @@
+{
+    "name": "App\\Http\\Controllers\\Admin\\Traits\\Logistics",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Admin\\Traits",
+    "file": "app\/Http\/Controllers\/Admin\/Traits\/Logistics.php",
+    "relative_file": null,
+    "hash": "c7269665039c470e1444becc96eba82eb2af42a2",
+    "parent": null,
+    "modifiers": "Stmt_Trait",
+    "is_trait": true,
+    "is_interface": false,
+    "aliases": {
+        "Order": "App\\Order",
+        "Store": "App\\Store",
+        "Customer": "App\\Customer",
+        "Log": "Illuminate\\Support\\Facades\\Log",
+        "Config": "Illuminate\\Support\\Facades\\Config"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "addOrderToFarEye": {
+            "name": "addOrderToFarEye",
+            "line": 21,
+            "short_desc": "Add a new order to the Logistic Service .",
+            "long_desc": ".",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "orderId": {
+                    "name": "orderId",
+                    "line": 21,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "updateOrderToFarEye": {
+            "name": "updateOrderToFarEye",
+            "line": 43,
+            "short_desc": "Update the order to the Logistic Service .",
+            "long_desc": ".",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "jobType": {
+                    "name": "jobType",
+                    "line": 43,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "orderId": {
+                    "name": "orderId",
+                    "line": 43,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getOrderObject": {
+            "name": "getOrderObject",
+            "line": 284,
+            "short_desc": "Gets the value of order.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getApiKey": {
+            "name": "getApiKey",
+            "line": 308,
+            "short_desc": "Gets the value of apiKey.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getBaseApiUrl": {
+            "name": "getBaseApiUrl",
+            "line": 332,
+            "short_desc": "Gets the value of baseApiUrl.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

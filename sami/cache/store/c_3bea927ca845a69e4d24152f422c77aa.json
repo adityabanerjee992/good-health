@@ -1,0 +1,325 @@
+{
+    "name": "App\\Http\\Controllers\\Admin\\ProductController",
+    "line": 20,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Admin",
+    "file": "app\/Http\/Controllers\/Admin\/ProductController.php",
+    "relative_file": null,
+    "hash": "a6e59fb35fdc90413ef9cbaebf4b21a61ad2581a",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "File": "File",
+        "Validator": "Validator",
+        "Classes": "App\\Classes",
+        "Product": "App\\Product",
+        "Requests": "App\\Http\\Requests",
+        "Flash": "Laracasts\\Flash\\Flash",
+        "Request": "Illuminate\\Http\\Request",
+        "Collection": "Illuminate\\Support\\Collection",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "Excel": "Maatwebsite\\Excel\\Facades\\Excel",
+        "Storage": "Illuminate\\Support\\Facades\\Storage",
+        "Redirect": "Illuminate\\Support\\Facades\\Redirect",
+        "Datatables": "yajra\\Datatables\\Facades\\Datatables",
+        "ProductTrait": "App\\Http\\Controllers\\Traits\\Product",
+        "BulkUploadTrait": "App\\Http\\Controllers\\Admin\\Traits\\BulkUpload",
+        "ProductInterface": "App\\Http\\Controllers\\Admin\\Contracts\\Product"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Controllers\\Admin\\Contracts\\Product": "App\\Http\\Controllers\\Admin\\Contracts\\Product"
+    },
+    "traits": {
+        "App\\Http\\Controllers\\Admin\\Traits\\BulkUpload": "App\\Http\\Controllers\\Admin\\Traits\\BulkUpload",
+        "App\\Http\\Controllers\\Traits\\Product": "App\\Http\\Controllers\\Traits\\Product"
+    },
+    "properties": [],
+    "methods": {
+        "getAllProducts": {
+            "name": "getAllProducts",
+            "line": 25,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getProductsAjax": {
+            "name": "getProductsAjax",
+            "line": 30,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCreate": {
+            "name": "getCreate",
+            "line": 43,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "postCreate": {
+            "name": "postCreate",
+            "line": 48,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 48,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\Illuminate\\Http\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Illuminate\\Http\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getEdit": {
+            "name": "getEdit",
+            "line": 67,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 67,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "postEdit": {
+            "name": "postEdit",
+            "line": 75,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 75,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "request": {
+                    "name": "request",
+                    "line": 75,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\Illuminate\\Http\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Illuminate\\Http\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "show": {
+            "name": "show",
+            "line": 92,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 92,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getBulkUpload": {
+            "name": "getBulkUpload",
+            "line": 99,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "postBulkUpload": {
+            "name": "postBulkUpload",
+            "line": 110,
+            "short_desc": "Responsbile for bulk upload of products .",
+            "long_desc": ".",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\[type]",
+                    false
+                ]
+            ],
+            "hint_desc": "[description]",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 110,
+                    "short_desc": "[description]",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\Illuminate\\Http\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Illuminate\\Http\\Request",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getModalDelete": {
+            "name": "getModalDelete",
+            "line": 408,
+            "short_desc": "Delete Confirm",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 408,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "destroy": {
+            "name": "destroy",
+            "line": 425,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 425,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

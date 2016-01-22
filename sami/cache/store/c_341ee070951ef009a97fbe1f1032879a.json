@@ -1,0 +1,155 @@
+{
+    "name": "App\\Http\\Controllers\\DocumentUploadController",
+    "line": 10,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/Http\/Controllers\/DocumentUploadController.php",
+    "relative_file": null,
+    "hash": "c5e65f429efeee11062725644db346748fe5931f",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Auth": "Auth",
+        "Storage": "Storage",
+        "Document": "App\\Document",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "DocumentUpload": "App\\Http\\Controllers\\Traits\\DocumentUpload",
+        "DocumentUploadContract": "App\\Http\\Contracts\\DocumentUpload"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Contracts\\DocumentUpload": "App\\Http\\Contracts\\DocumentUpload"
+    },
+    "traits": {
+        "App\\Http\\Controllers\\Traits\\DocumentUpload": "App\\Http\\Controllers\\Traits\\DocumentUpload"
+    },
+    "properties": [],
+    "methods": {
+        "store": {
+            "name": "store",
+            "line": 24,
+            "short_desc": "Store file (document) to the storage.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "input": {
+                    "name": "input",
+                    "line": 24,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "orderId": {
+                    "name": "orderId",
+                    "line": 24,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "destination": {
+                    "name": "destination",
+                    "line": 24,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "documentType": {
+                    "name": "documentType",
+                    "line": 24,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "get": {
+            "name": "get",
+            "line": 36,
+            "short_desc": "Get the file or document from the storage (It can be amazon s3 or local storage ).",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\file",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "documentId": {
+                    "name": "documentId",
+                    "line": 36,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

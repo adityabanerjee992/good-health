@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow, all" />
+    <title>App\Http\Controllers\BaseControllers\BaseOrderController | Goodhealth Code Document</title>
+
+            <link rel="stylesheet" type="text/css" href="../../../../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../../css/sami.css">
+        <script src="../../../../js/jquery-1.11.1.min.js"></script>
+        <script src="../../../../js/bootstrap.min.js"></script>
+        <script src="../../../../js/typeahead.min.js"></script>
+        <script src="../../../../sami.js"></script>
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    
+    
+    </head>
+
+    <body id="class" data-name="class:App_Http_Controllers_BaseControllers_BaseOrderController" data-root-path="../../../../">
+            <div id="content">
+        <div id="left-column">
+                <div id="control-panel">
+                <form id="search-form" action="../../../../search.html" method="GET">
+            <span class="glyphicon glyphicon-search"></span>
+            <input name="search"
+                   class="typeahead form-control"
+                   type="search"
+                   placeholder="Search">
+        </form>
+    </div>
+
+                <div id="api-tree"></div>
+
+        </div>
+        <div id="right-column">
+                <nav id="site-nav" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-elements">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../../../../index.html">Goodhealth Code Document</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-elements">
+                <ul class="nav navbar-nav">
+                    <li><a href="../../../../classes.html">Classes</a></li>
+                                            <li><a href="../../../../namespaces.html">Namespaces</a></li>
+                                        <li><a href="../../../../interfaces.html">Interfaces</a></li>
+                    <li><a href="../../../../traits.html">Traits</a></li>
+                    <li><a href="../../../../doc-index.html">Index</a></li>
+                    <li><a href="../../../../search.html">Search</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+                        <div class="namespace-breadcrumbs">
+            <ol class="breadcrumb">
+                <li><span class="label label-default">class</span></li>
+                                                            <li><a href="../../../../App.html">App</a></li>
+                                        <li><a href="../../../../App/Http.html">Http</a></li>
+                                        <li><a href="../../../../App/Http/Controllers.html">Controllers</a></li>
+                                        <li><a href="../../../../App/Http/Controllers/BaseControllers.html">BaseControllers</a></li>
+    
+                <li>BaseOrderController</li>
+            </ol>
+        </div>
+                <div id="page-content">
+                
+    <div class="page-header">
+        <h1>BaseOrderController</h1>
+    </div>
+
+    <p>    class
+    <strong>BaseOrderController</strong>        extends <abbr title="Illuminate\Routing\Controller">Controller</abbr>
+</p>
+
+    
+    
+    
+    
+            <h2>Methods</h2>
+
+            <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_orderDetailsEmpty">orderDetailsEmpty</a>($order_id)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <abbr title="App\Http\Controllers\BaseControllers\[type]">[type]</abbr>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_updateOrderUserId">updateOrderUserId</a>(
+    <abbr title="App\Http\Controllers\BaseControllers\[type]">[type]</abbr> $token)
+                                            <p>[updateOrderUserId description]</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    integer
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getOrderId">getOrderId</a>(
+    <abbr title="App\Http\Controllers\BaseControllers\interger">interger</abbr> $customer_id)
+                                            <p>Get order id by User Id</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getOrderDetails">getOrderDetails</a>($id)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <abbr title="Illuminate\Database\Eloquent\Collection">Collection</abbr>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getOrderDetailsByUserIdAndUpdateToken">getOrderDetailsByUserIdAndUpdateToken</a>(
+    <abbr title="App\Http\Controllers\BaseControllers\interger">interger</abbr> $uid, 
+    string $token)
+                                            <p>Get order details by uid</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    boolean
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_checkIfOrderExist">checkIfOrderExist</a>(
+    int $orderId)
+                                            <p>Checks if order exists or not</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getOrderIdByToken">getOrderIdByToken</a>($token)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    bool
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_checkIfOrderDetailsExist">checkIfOrderDetailsExist</a>(
+    int $order_id, 
+    string $product_code)
+                                            <p>Check if order details exist</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <abbr title="Illuminate\Database\Eloquent\Collection">Collection</abbr>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getOrderQuote">getOrderQuote</a>(
+    integer $customer_id)
+                                            <p>This function checks for the previous quotes
+if any exist for the same user id</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    boolean
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_updateToken">updateToken</a>(
+    <abbr title="Illuminate\Database\Eloquent\Collection">Collection</abbr> $order, 
+    string $token)
+                                            <p>Update the token in the orders table</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_processCreateOrder">processCreateOrder</a>($cartData, $token, $isApi = false, $customerId = NULL)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_saveOrderDetails">saveOrderDetails</a>($order, $orderId, $cartData)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_prepareOrderDetailsDataArray">prepareOrderDetailsDataArray</a>($orderId, $data)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+            </div>
+
+
+        <h2>Details</h2>
+
+            <div id="method-details">
+                    <div class="method-item">
+                    <h3 id="method_orderDetailsEmpty">
+        <div class="location">at line 15</div>
+        <code>                    
+    
+    <strong>orderDetailsEmpty</strong>($order_id)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$order_id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_updateOrderUserId">
+        <div class="location">at line 38</div>
+        <code>                    
+    <abbr title="App\Http\Controllers\BaseControllers\[type]">[type]</abbr>
+    <strong>updateOrderUserId</strong>(
+    <abbr title="App\Http\Controllers\BaseControllers\[type]">[type]</abbr> $token)</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>[updateOrderUserId description]</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    <abbr title="App\Http\Controllers\BaseControllers\[type]">[type]</abbr></td>
+                <td>$token</td>
+                <td>[description]</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <abbr title="App\Http\Controllers\BaseControllers\[type]">[type]</abbr></td>
+            <td>[description]</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getOrderId">
+        <div class="location">at line 62</div>
+        <code>                    
+    integer
+    <strong>getOrderId</strong>(
+    <abbr title="App\Http\Controllers\BaseControllers\interger">interger</abbr> $customer_id)</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Get order id by User Id</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    <abbr title="App\Http\Controllers\BaseControllers\interger">interger</abbr></td>
+                <td>$customer_id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    integer</td>
+            <td>$order_id</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getOrderDetails">
+        <div class="location">at line 74</div>
+        <code>                    
+    
+    <strong>getOrderDetails</strong>($id)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getOrderDetailsByUserIdAndUpdateToken">
+        <div class="location">at line 89</div>
+        <code>                    
+    <abbr title="Illuminate\Database\Eloquent\Collection">Collection</abbr>
+    <strong>getOrderDetailsByUserIdAndUpdateToken</strong>(
+    <abbr title="App\Http\Controllers\BaseControllers\interger">interger</abbr> $uid, 
+    string $token)</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Get order details by uid</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    <abbr title="App\Http\Controllers\BaseControllers\interger">interger</abbr></td>
+                <td>$uid</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>
+    string</td>
+                <td>$token</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <abbr title="Illuminate\Database\Eloquent\Collection">Collection</abbr></td>
+            <td>$orderDetails</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_checkIfOrderExist">
+        <div class="location">at line 120</div>
+        <code>                    
+    boolean
+    <strong>checkIfOrderExist</strong>(
+    int $orderId)</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Checks if order exists or not</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    int</td>
+                <td>$orderId</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    boolean</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getOrderIdByToken">
+        <div class="location">at line 131</div>
+        <code>                    
+    
+    <strong>getOrderIdByToken</strong>($token)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$token</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_checkIfOrderDetailsExist">
+        <div class="location">at line 148</div>
+        <code>                    
+    bool
+    <strong>checkIfOrderDetailsExist</strong>(
+    int $order_id, 
+    string $product_code)</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Check if order details exist</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    int</td>
+                <td>$order_id</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>
+    string</td>
+                <td>$product_code</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    bool</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getOrderQuote">
+        <div class="location">at line 170</div>
+        <code>                    
+    <abbr title="Illuminate\Database\Eloquent\Collection">Collection</abbr>
+    <strong>getOrderQuote</strong>(
+    integer $customer_id)</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>This function checks for the previous quotes
+if any exist for the same user id</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    integer</td>
+                <td>$customer_id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <abbr title="Illuminate\Database\Eloquent\Collection">Collection</abbr></td>
+            <td>$order</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_updateToken">
+        <div class="location">at line 193</div>
+        <code>                    
+    boolean
+    <strong>updateToken</strong>(
+    <abbr title="Illuminate\Database\Eloquent\Collection">Collection</abbr> $order, 
+    string $token)</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Update the token in the orders table</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    <abbr title="Illuminate\Database\Eloquent\Collection">Collection</abbr></td>
+                <td>$order</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>
+    string</td>
+                <td>$token</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    boolean</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_processCreateOrder">
+        <div class="location">at line 219</div>
+        <code>                    
+    
+    <strong>processCreateOrder</strong>($cartData, $token, $isApi = false, $customerId = NULL)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$cartData</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$token</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$isApi</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$customerId</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_saveOrderDetails">
+        <div class="location">at line 262</div>
+        <code>                    
+    
+    <strong>saveOrderDetails</strong>($order, $orderId, $cartData)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$order</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$orderId</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$cartData</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_prepareOrderDetailsDataArray">
+        <div class="location">at line 291</div>
+        <code>                    
+    
+    <strong>prepareOrderDetailsDataArray</strong>($orderId, $data)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$orderId</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$data</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+            </div>
+
+    
+            </div>
+                <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/">Sami, the API Documentation Generator</a>.
+    </div>
+
+        </div>
+    </div>
+    </body>
+
+</html>

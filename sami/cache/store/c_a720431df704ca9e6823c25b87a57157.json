@@ -1,0 +1,26 @@
+{
+    "name": "App\\Http\\Controllers\\Traits\\Register",
+    "line": 6,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Traits",
+    "file": "app\/Http\/Controllers\/Traits\/Register.php",
+    "relative_file": null,
+    "hash": "875ec3229d5c1b589bba432587b7f9eaf5fa5be9",
+    "parent": null,
+    "modifiers": "Stmt_Trait",
+    "is_trait": true,
+    "is_interface": false,
+    "aliases": {
+        "Config": "Illuminate\\Support\\Facades\\Config",
+        "Validator": "Illuminate\\Support\\Facades\\Validator"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

@@ -1,0 +1,68 @@
+{
+    "name": "App\\Http\\Controllers\\Api\\OrderController",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Api",
+    "file": "app\/Http\/Controllers\/Api\/OrderController.php",
+    "relative_file": null,
+    "hash": "4a82d1d2bb4de172107d882a49042a42b11f68b6",
+    "parent": "App\\Http\\Controllers\\Api\\ApiController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Order": "App\\Order",
+        "Address": "App\\Address",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "Request": "Illuminate\\Support\\Facades\\Request",
+        "Validator": "Illuminate\\Support\\Facades\\Validator"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "linkAddressToOrder": {
+            "name": "linkAddressToOrder",
+            "line": 15,
+            "short_desc": "[linkAddressToOrder description]",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\[type]",
+                    false
+                ]
+            ],
+            "hint_desc": "[description]",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "changeOrderStatusToConfirmed": {
+            "name": "changeOrderStatusToConfirmed",
+            "line": 37,
+            "short_desc": "[changeOrderStatusToConfirmed description]",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\[type]",
+                    false
+                ]
+            ],
+            "hint_desc": "[description]",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

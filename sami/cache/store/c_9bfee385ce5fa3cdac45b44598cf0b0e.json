@@ -1,0 +1,197 @@
+{
+    "name": "App\\Http\\Controllers\\Traits\\Product",
+    "line": 17,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Traits",
+    "file": "app\/Http\/Controllers\/Traits\/Product.php",
+    "relative_file": null,
+    "hash": "968d74eb58b2d92c0fa142e47fd9ab03fa172030",
+    "parent": null,
+    "modifiers": "Stmt_Trait",
+    "is_trait": true,
+    "is_interface": false,
+    "aliases": {
+        "Salt": "App\\Http\\Contracts\\Salt",
+        "Unit": "App\\Http\\Contracts\\Unit",
+        "Request": "Illuminate\\Http\\Request",
+        "Ailment": "App\\Http\\Contracts\\Ailment",
+        "Company": "App\\Http\\Contracts\\Company",
+        "Packing": "App\\Http\\Contracts\\Packing",
+        "Category": "App\\Http\\Contracts\\Category",
+        "ProductModel": "App\\Product",
+        "Collection": "Illuminate\\Support\\Collection",
+        "ProductType": "App\\Http\\Contracts\\ProductType",
+        "URL": "Illuminate\\Support\\Facades\\URL",
+        "Manufacturer": "App\\Http\\Contracts\\Manufacturer",
+        "ProductClasses": "App\\Http\\Contracts\\Classes"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 74,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "category": {
+                    "name": "category",
+                    "line": 74,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Traits\\App\\Http\\Contracts\\Category",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Contracts\\Category",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "salt": {
+                    "name": "salt",
+                    "line": 74,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Traits\\App\\Http\\Contracts\\Salt",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Contracts\\Salt",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "company": {
+                    "name": "company",
+                    "line": 74,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Traits\\App\\Http\\Contracts\\Company",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Contracts\\Company",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "packing": {
+                    "name": "packing",
+                    "line": 75,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Traits\\App\\Http\\Contracts\\Packing",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Contracts\\Packing",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "unit": {
+                    "name": "unit",
+                    "line": 75,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Traits\\App\\Http\\Contracts\\Unit",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Contracts\\Unit",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "manufacturer": {
+                    "name": "manufacturer",
+                    "line": 75,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Traits\\App\\Http\\Contracts\\Manufacturer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Contracts\\Manufacturer",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "ailment": {
+                    "name": "ailment",
+                    "line": 76,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Traits\\App\\Http\\Contracts\\Ailment",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Contracts\\Ailment",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "classes": {
+                    "name": "classes",
+                    "line": 76,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Traits\\App\\Http\\Contracts\\Classes",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Contracts\\Classes",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "productType": {
+                    "name": "productType",
+                    "line": 76,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Traits\\App\\Http\\Contracts\\ProductType",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Contracts\\ProductType",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,73 @@
+{
+    "name": "App\\Http\\Controllers\\Traits\\Order",
+    "line": 21,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Traits",
+    "file": "app\/Http\/Controllers\/Traits\/Order.php",
+    "relative_file": null,
+    "hash": "42e919efbb4f3a9a822c53575d61203f51f71e8e",
+    "parent": null,
+    "modifiers": "Stmt_Trait",
+    "is_trait": true,
+    "is_interface": false,
+    "aliases": {
+        "Auth": "Auth",
+        "Hash": "Hash",
+        "Flash": "Flash",
+        "Request": "Request",
+        "Redirect": "Redirect",
+        "Validator": "Validator",
+        "Document": "App\\Document",
+        "Address": "App\\Address",
+        "Product": "App\\Product",
+        "OrderModel": "App\\Order",
+        "Customer": "App\\Customer",
+        "Collection": "Illuminate\\Support\\Collection",
+        "PaymentType": "App\\PaymentType",
+        "OrderDetails": "App\\OrderDetails",
+        "OrderContract": "App\\Http\\Contracts\\Order",
+        "OrderTrait": "App\\Http\\Controllers\\Traits\\Order",
+        "UserAccountContract": "App\\Http\\Contracts\\UserAccount"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 28,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "order": {
+                    "name": "order",
+                    "line": 28,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Traits\\App\\Http\\Contracts\\Order",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Contracts\\Order",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

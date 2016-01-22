@@ -1,0 +1,523 @@
+{
+    "name": "App\\Http\\Controllers\\Admin\\BlogController",
+    "line": 14,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Admin",
+    "file": "app\/Http\/Controllers\/Admin\/BlogController.php",
+    "relative_file": null,
+    "hash": "41e6be14bbf75fb06dd8e6d57c01885326ebae66",
+    "parent": "App\\Http\\Controllers\\Admin\\BaseController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "BlogCategory": "App\\BlogCategory",
+        "Requests": "App\\Http\\Requests",
+        "BlogRequest": "App\\Http\\Requests\\BlogRequest",
+        "BlogCommentRequest": "App\\Http\\Requests\\BlogCommentRequest",
+        "Blog": "App\\Blog",
+        "BlogComment": "App\\BlogComment",
+        "ModelNotFoundException": "Illuminate\\Database\\Eloquent\\ModelNotFoundException",
+        "Sentinel": "Sentinel",
+        "Response": "Response"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 19,
+            "short_desc": "Initializer.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getIndexFrontend": {
+            "name": "getIndexFrontend",
+            "line": 27,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\View\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getBlogFrontend": {
+            "name": "getBlogFrontend",
+            "line": 41,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\View\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "slug": {
+                    "name": "slug",
+                    "line": 41,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "''",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getBlogTagFrontend": {
+            "name": "getBlogTagFrontend",
+            "line": 64,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\View\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "tag": {
+                    "name": "tag",
+                    "line": 64,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "storeCommentFrontend": {
+            "name": "storeCommentFrontend",
+            "line": 77,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\RedirectResponse",
+                    false
+                ],
+                [
+                    "\\Illuminate\\Routing\\Redirector",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 77,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\Http\\Requests\\BlogCommentRequest",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Requests\\BlogCommentRequest",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "blog": {
+                    "name": "blog",
+                    "line": 77,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\Blog",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Blog",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getIndex": {
+            "name": "getIndex",
+            "line": 91,
+            "short_desc": "Display a listing of the resource.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCreate": {
+            "name": "getCreate",
+            "line": 104,
+            "short_desc": "Show the form for creating a new resource.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "postCreate": {
+            "name": "postCreate",
+            "line": 115,
+            "short_desc": "Store a newly created resource in storage.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 115,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\Http\\Requests\\BlogRequest",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Requests\\BlogRequest",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "show": {
+            "name": "show",
+            "line": 144,
+            "short_desc": "Display the specified resource.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\view",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "blog": {
+                    "name": "blog",
+                    "line": 144,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\Blog",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Blog",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getEdit": {
+            "name": "getEdit",
+            "line": 156,
+            "short_desc": "Show the form for editing the specified resource.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Admin\\view",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "blog": {
+                    "name": "blog",
+                    "line": 156,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\Blog",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Blog",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "postEdit": {
+            "name": "postEdit",
+            "line": 168,
+            "short_desc": "Update the specified resource in storage.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "\"2\" @param tags are expected but only \"1\" found"
+            ],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 168,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\Http\\Requests\\BlogRequest",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Requests\\BlogRequest",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "blog": {
+                    "name": "blog",
+                    "line": 168,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\Blog",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Blog",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getModalDelete": {
+            "name": "getModalDelete",
+            "line": 196,
+            "short_desc": "Remove blog.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "The \"website\" @param tag variable name is wrong (should be \"blog\")"
+            ],
+            "parameters": {
+                "blog": {
+                    "name": "blog",
+                    "line": 196,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\Blog",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Blog",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getDelete": {
+            "name": "getDelete",
+            "line": 215,
+            "short_desc": "Remove the specified resource from storage.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "The \"id\" @param tag variable name is wrong (should be \"blog\")"
+            ],
+            "parameters": {
+                "blog": {
+                    "name": "blog",
+                    "line": 215,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\Blog",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Blog",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "storecomment": {
+            "name": "storecomment",
+            "line": 226,
+            "short_desc": "Store a newly created resource in storage.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 226,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\Http\\Requests\\BlogCommentRequest",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Http\\Requests\\BlogCommentRequest",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "blog": {
+                    "name": "blog",
+                    "line": 226,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Admin\\App\\Blog",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Blog",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

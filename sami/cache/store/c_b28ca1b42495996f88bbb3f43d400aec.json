@@ -1,0 +1,306 @@
+{
+    "name": "App\\Http\\Controllers\\ProductController",
+    "line": 17,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/Http\/Controllers\/ProductController.php",
+    "relative_file": null,
+    "hash": "a677f17666a4b65e7a3c95f06ab40131b1ef5105",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "URL": "URL",
+        "Ailment": "App\\Ailment",
+        "Classes": "App\\Classes",
+        "Salt": "App\\Salt",
+        "Requests": "App\\Http\\Requests",
+        "Company": "App\\Company",
+        "Product": "App\\Product",
+        "Request": "Illuminate\\Http\\Request",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "Manufacturer": "App\\Manufacturer",
+        "ProductInterface": "App\\Http\\Contracts\\Product",
+        "ProductTrait": "App\\Http\\Controllers\\Traits\\Product"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Contracts\\Product": "App\\Http\\Contracts\\Product"
+    },
+    "traits": {
+        "App\\Http\\Controllers\\Traits\\Product": "App\\Http\\Controllers\\Traits\\Product"
+    },
+    "properties": [],
+    "methods": {
+        "getProductsBySalt": {
+            "name": "getProductsBySalt",
+            "line": 27,
+            "short_desc": "Get al products under a particular salt id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\view",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 27,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getProductsByCompany": {
+            "name": "getProductsByCompany",
+            "line": 54,
+            "short_desc": "Get all products under a particular company id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\view",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 54,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getProductsByAilment": {
+            "name": "getProductsByAilment",
+            "line": 74,
+            "short_desc": "Get all products under a particular ailment id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\view",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "The \"id\" @param tag variable name is wrong (should be \"ailmentId\")"
+            ],
+            "parameters": {
+                "ailmentId": {
+                    "name": "ailmentId",
+                    "line": 74,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getProductsByClass": {
+            "name": "getProductsByClass",
+            "line": 96,
+            "short_desc": "Get all products under a particular class id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\view",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "The \"id\" @param tag variable name is wrong (should be \"classId\")"
+            ],
+            "parameters": {
+                "classId": {
+                    "name": "classId",
+                    "line": 96,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getProductsByManufacturer": {
+            "name": "getProductsByManufacturer",
+            "line": 118,
+            "short_desc": "Get all products under a particular manufacturer id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\view",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 118,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getProductDetailes": {
+            "name": "getProductDetailes",
+            "line": 139,
+            "short_desc": "Get the product detailes by its Id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 139,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "fetchProductDetails": {
+            "name": "fetchProductDetails",
+            "line": 168,
+            "short_desc": "Fetch the product detailes by its Id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 168,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "listProducts": {
+            "name": "listProducts",
+            "line": 187,
+            "short_desc": "List all the products",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

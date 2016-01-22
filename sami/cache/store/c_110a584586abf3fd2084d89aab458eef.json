@@ -1,0 +1,62 @@
+{
+    "name": "App\\Http\\Controllers\\Api\\Contracts\\UserAccount",
+    "line": 3,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Api\\Contracts",
+    "file": "app\/Http\/Controllers\/Api\/Contracts\/UserAccount.php",
+    "relative_file": null,
+    "hash": "30b666657dd0876f3880f5835c7f167cbb2f21a4",
+    "parent": null,
+    "modifiers": "Stmt_Interface",
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "userDocuments": {
+            "name": "userDocuments",
+            "line": 10,
+            "short_desc": "Get user documents .",
+            "long_desc": ".",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "userAddress": {
+            "name": "userAddress",
+            "line": 16,
+            "short_desc": "Get user address",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

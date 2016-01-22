@@ -1,0 +1,241 @@
+{
+    "name": "App\\Http\\Controllers\\UserAccountController",
+    "line": 22,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/Http\/Controllers\/UserAccountController.php",
+    "relative_file": null,
+    "hash": "855b2e694921f850c33f9cc249c63eda9b687677",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Auth": "Auth",
+        "Hash": "Hash",
+        "Flash": "Flash",
+        "Request": "Request",
+        "Redirect": "Redirect",
+        "Validator": "Validator",
+        "Order": "App\\Order",
+        "Address": "App\\Address",
+        "Product": "App\\Product",
+        "Customer": "App\\Customer",
+        "Collection": "Illuminate\\Support\\Collection",
+        "PaymentType": "App\\PaymentType",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "OrderDetails": "App\\OrderDetails",
+        "OrderContract": "App\\Http\\Contracts\\Order",
+        "OrderTrait": "App\\Http\\Controllers\\Traits\\Order",
+        "DocumentUploadTrait": "App\\Http\\Controllers\\Traits\\DocumentUpload",
+        "UserAccountContract": "App\\Http\\Contracts\\UserAccount"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Contracts\\UserAccount": "App\\Http\\Contracts\\UserAccount"
+    },
+    "traits": {
+        "App\\Http\\Controllers\\Traits\\Order": "App\\Http\\Controllers\\Traits\\Order",
+        "App\\Http\\Controllers\\Traits\\DocumentUpload": "App\\Http\\Controllers\\Traits\\DocumentUpload"
+    },
+    "properties": [],
+    "methods": {
+        "getUserAccount": {
+            "name": "getUserAccount",
+            "line": 31,
+            "short_desc": "Get the user account info view",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "postUserAccount": {
+            "name": "postUserAccount",
+            "line": 44,
+            "short_desc": "Handles the form post functionality\nof account info form",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "userAddresses": {
+            "name": "userAddresses",
+            "line": 68,
+            "short_desc": "Handles the funtionality of user my addresses feature",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Illuminate\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "userDocuments": {
+            "name": "userDocuments",
+            "line": 82,
+            "short_desc": "Handles the funtionality of user my documents feature",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Illuminate\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "type": {
+                    "name": "type",
+                    "line": 82,
+                    "short_desc": "(Type of user documents)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "userOrders": {
+            "name": "userOrders",
+            "line": 95,
+            "short_desc": "Handles the funtionality of user my orders feature",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Illuminate\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "userOrderDetails": {
+            "name": "userOrderDetails",
+            "line": 123,
+            "short_desc": "Get order details by order id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 123,
+                    "short_desc": "order id",
+                    "long_desc": null,
+                    "hint": [],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "userCart": {
+            "name": "userCart",
+            "line": 134,
+            "short_desc": "Handles the funtionality of user my cart feature",
+            "long_desc": "",
+            "hint": [],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "printOrder": {
+            "name": "printOrder",
+            "line": 144,
+            "short_desc": "Print the order with the given order id",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Illuminate\\View",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "orderId": {
+                    "name": "orderId",
+                    "line": 144,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

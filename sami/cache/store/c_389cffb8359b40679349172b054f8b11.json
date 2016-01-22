@@ -1,0 +1,112 @@
+{
+    "name": "App\\Http\\Controllers\\Api\\Contracts\\Cart",
+    "line": 3,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Api\\Contracts",
+    "file": "app\/Http\/Controllers\/Api\/Contracts\/Cart.php",
+    "relative_file": null,
+    "hash": "214f44f5014b29fa38385820fa5ee44debcbefc5",
+    "parent": null,
+    "modifiers": "Stmt_Interface",
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "add": {
+            "name": "add",
+            "line": 8,
+            "short_desc": "Add the product to cart .",
+            "long_desc": ".",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "view": {
+            "name": "view",
+            "line": 15,
+            "short_desc": "View cart item or product.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "transformer": {
+                    "name": "transformer",
+                    "line": 15,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Api\\Contracts\\CartTransformer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "CartTransformer",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "update": {
+            "name": "update",
+            "line": 22,
+            "short_desc": "Update cart item or product.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "delete": {
+            "name": "delete",
+            "line": 29,
+            "short_desc": "Delete product or item from cart",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

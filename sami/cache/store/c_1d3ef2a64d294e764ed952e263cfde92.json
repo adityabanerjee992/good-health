@@ -1,0 +1,44 @@
+{
+    "name": "App\\Http\\Controllers\\Admin\\CacheController",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Admin",
+    "file": "app\/Http\/Controllers\/Admin\/CacheController.php",
+    "relative_file": null,
+    "hash": "4a20c2df43fa9a22728120321dadddae521c6608",
+    "parent": "App\\Http\\Controllers\\Admin\\BaseController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Requests": "App\\Http\\Requests",
+        "Request": "Illuminate\\Http\\Request",
+        "Cache": "Illuminate\\Support\\Facades\\Cache",
+        "Redirect": "Illuminate\\Support\\Facades\\Redirect",
+        "BaseController": "App\\Http\\Controllers\\Admin\\BaseController"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "flushAllCache": {
+            "name": "flushAllCache",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

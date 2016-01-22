@@ -1,0 +1,67 @@
+{
+    "name": "App\\Http\\Controllers\\CompanyController",
+    "line": 11,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/Http\/Controllers\/CompanyController.php",
+    "relative_file": null,
+    "hash": "a412a72af8141f9fa8ce8053e481bb0c2f7a8b36",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Request": "Illuminate\\Http\\Request",
+        "Requests": "App\\Http\\Requests",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "CompanyContract": "App\\Http\\Contracts\\Company"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Contracts\\Company": "App\\Http\\Contracts\\Company"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getCompany": {
+            "name": "getCompany",
+            "line": 20,
+            "short_desc": "Get the company related to the product",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "product": {
+                    "name": "product",
+                    "line": 20,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\Http\\Controllers\\App\\Product",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

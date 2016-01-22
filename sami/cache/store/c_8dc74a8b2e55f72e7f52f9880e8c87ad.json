@@ -1,0 +1,43 @@
+{
+    "name": "App\\Http\\Controllers\\Api\\Contracts\\Login",
+    "line": 3,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Api\\Contracts",
+    "file": "app\/Http\/Controllers\/Api\/Contracts\/Login.php",
+    "relative_file": null,
+    "hash": "38f69c916ec82f865bf488b2c7beb0454c072730",
+    "parent": null,
+    "modifiers": "Stmt_Interface",
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "login": {
+            "name": "login",
+            "line": 9,
+            "short_desc": "Login the user",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

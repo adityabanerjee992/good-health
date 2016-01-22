@@ -1,0 +1,149 @@
+{
+    "name": "App\\Http\\Controllers\\Api\\CartController",
+    "line": 17,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Api",
+    "file": "app\/Http\/Controllers\/Api\/CartController.php",
+    "relative_file": null,
+    "hash": "f25b2c8293d907f6d977b053dc45c2d30e3a4d16",
+    "parent": "App\\Http\\Controllers\\Api\\ApiController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Auth": "Auth",
+        "Response": "Response",
+        "Order": "App\\Order",
+        "Product": "App\\Product",
+        "Customer": "App\\Customer",
+        "OrderDetails": "App\\OrderDetails",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "Cart": "App\\Http\\Controllers\\Traits\\Cart",
+        "Request": "Illuminate\\Support\\Facades\\Request",
+        "Validator": "Illuminate\\Support\\Facades\\Validator",
+        "CartTransformer": "App\\Acme\\Transformers\\CartTransformer",
+        "ApiController": "App\\Http\\Controllers\\Api\\ApiController",
+        "CartContract": "App\\Http\\Controllers\\Api\\Contracts\\Cart"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Controllers\\Api\\Contracts\\Cart": "App\\Http\\Controllers\\Api\\Contracts\\Cart"
+    },
+    "traits": {
+        "App\\Http\\Controllers\\Traits\\Cart": "App\\Http\\Controllers\\Traits\\Cart"
+    },
+    "properties": [],
+    "methods": {
+        "add": {
+            "name": "add",
+            "line": 24,
+            "short_desc": "Add the product to cart .",
+            "long_desc": ".",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "view": {
+            "name": "view",
+            "line": 57,
+            "short_desc": "View cart item or product.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "transformer": {
+                    "name": "transformer",
+                    "line": 57,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Api\\Contracts\\CartTransformer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Acme\\Transformers\\CartTransformer",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "update": {
+            "name": "update",
+            "line": 100,
+            "short_desc": "Update cart item or product.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "delete": {
+            "name": "delete",
+            "line": 130,
+            "short_desc": "Delete product or item from cart",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCartObject": {
+            "name": "getCartObject",
+            "line": 212,
+            "short_desc": "Gets the value of cartObject.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

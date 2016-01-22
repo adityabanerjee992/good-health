@@ -1,0 +1,121 @@
+{
+    "name": "App\\Http\\Controllers\\Api\\AddressController",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Api",
+    "file": "app\/Http\/Controllers\/Api\/AddressController.php",
+    "relative_file": null,
+    "hash": "b30821fa755cce8c692125bfc15ab88e64bcf38d",
+    "parent": "App\\Http\\Controllers\\Api\\ApiController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Request": "Illuminate\\Support\\Facades\\Request",
+        "AddressTransformer": "App\\Acme\\Transformers\\AddressTransformer",
+        "AddressTrait": "App\\Http\\Controllers\\Traits\\Address",
+        "AddressContract": "App\\Http\\Controllers\\Api\\Contracts\\Address"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Controllers\\Api\\Contracts\\Address": "App\\Http\\Controllers\\Api\\Contracts\\Address"
+    },
+    "traits": {
+        "App\\Http\\Controllers\\Traits\\Address": "App\\Http\\Controllers\\Traits\\Address"
+    },
+    "properties": [],
+    "methods": {
+        "add": {
+            "name": "add",
+            "line": 15,
+            "short_desc": "Add new address",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "get": {
+            "name": "get",
+            "line": 33,
+            "short_desc": "Get all customer address",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "transformer": {
+                    "name": "transformer",
+                    "line": 33,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Api\\Contracts\\AddressTransformer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Acme\\Transformers\\AddressTransformer",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "update": {
+            "name": "update",
+            "line": 48,
+            "short_desc": "Update customer address",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "delete": {
+            "name": "delete",
+            "line": 70,
+            "short_desc": "Delete customer address",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

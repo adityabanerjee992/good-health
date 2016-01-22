@@ -1,0 +1,165 @@
+{
+    "name": "App\\Http\\Controllers\\Api\\ProductController",
+    "line": 19,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Api",
+    "file": "app\/Http\/Controllers\/Api\/ProductController.php",
+    "relative_file": null,
+    "hash": "b1aa358fee3d7af70ee48426f67f3eb872a95b41",
+    "parent": "App\\Http\\Controllers\\Api\\ApiController",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Response": "Response",
+        "Product": "App\\Product",
+        "Salt": "App\\Http\\Contracts\\Salt",
+        "Unit": "App\\Http\\Contracts\\Unit",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "Request": "Illuminate\\Support\\Facades\\Request",
+        "Company": "App\\Http\\Contracts\\Company",
+        "Packing": "App\\Http\\Contracts\\Packing",
+        "Category": "App\\Http\\Contracts\\Category",
+        "Manufacturer": "App\\Http\\Contracts\\Manufacturer",
+        "ProductTrait": "App\\Http\\Controllers\\Traits\\Product",
+        "ApiController": "App\\Http\\Controllers\\Api\\ApiController",
+        "ProductContract": "App\\Http\\Controllers\\Api\\Contracts\\Product",
+        "ProductTransformer": "App\\Acme\\Transformers\\ProductTransformer",
+        "ProductDetailsTransformer": "App\\Acme\\Transformers\\ProductDetailsTransformer"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Http\\Controllers\\Api\\Contracts\\Product": "App\\Http\\Controllers\\Api\\Contracts\\Product"
+    },
+    "traits": {
+        "App\\Http\\Controllers\\Traits\\Product": "App\\Http\\Controllers\\Traits\\Product"
+    },
+    "properties": [],
+    "methods": {
+        "search": {
+            "name": "search",
+            "line": 34,
+            "short_desc": "Gives back the search results for a given product query",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "\"2\" @param tags are expected but only \"1\" found"
+            ],
+            "parameters": {
+                "query": {
+                    "name": "query",
+                    "line": 34,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "productTransformer": {
+                    "name": "productTransformer",
+                    "line": 34,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Api\\Contracts\\ProductTransformer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Acme\\Transformers\\ProductTransformer",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "all": {
+            "name": "all",
+            "line": 51,
+            "short_desc": "Get all products",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "productTransformer": {
+                    "name": "productTransformer",
+                    "line": 51,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Api\\Contracts\\ProductTransformer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Acme\\Transformers\\ProductTransformer",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "show": {
+            "name": "show",
+            "line": 69,
+            "short_desc": "Get details of particular product",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\Api\\Contracts\\json",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "productDetailsTransformer": {
+                    "name": "productDetailsTransformer",
+                    "line": 69,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "App\\Http\\Controllers\\Api\\Contracts\\ProductDetailsTransformer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "App\\Acme\\Transformers\\ProductDetailsTransformer",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

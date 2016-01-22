@@ -1,0 +1,30 @@
+{
+    "name": "App\\Http\\Controllers\\BaseControllers\\BaseDocumentUploadController",
+    "line": 10,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\BaseControllers",
+    "file": "app\/Http\/Controllers\/BaseControllers\/BaseDocumentUploadController.php",
+    "relative_file": null,
+    "hash": "032e19500119eb16c5c7341ac0811cd515b6525e",
+    "parent": "Illuminate\\Routing\\Controller",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Auth": "Auth",
+        "Storage": "Storage",
+        "Document": "App\\Document",
+        "FileNotSaved": "App\\Exceptions\\FileNotSaved",
+        "FileNotFound": "App\\Exceptions\\FileNotFound",
+        "BaseController": "Illuminate\\Routing\\Controller"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

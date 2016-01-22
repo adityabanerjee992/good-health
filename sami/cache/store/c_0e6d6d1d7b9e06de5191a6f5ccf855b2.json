@@ -1,0 +1,25 @@
+{
+    "name": "App\\Http\\Controllers\\Admin\\Traits\\BulkUpload",
+    "line": 5,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Admin\\Traits",
+    "file": "app\/Http\/Controllers\/Admin\/Traits\/BulkUpload.php",
+    "relative_file": null,
+    "hash": "d9eab5cbbb5f1330540ab397139a35f20c57f0d4",
+    "parent": null,
+    "modifiers": "Stmt_Trait",
+    "is_trait": true,
+    "is_interface": false,
+    "aliases": {
+        "Validator": "Illuminate\\Support\\Facades\\Validator"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

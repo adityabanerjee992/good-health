@@ -1,27 +1,51 @@
-## Laravel PHP Framework
+# Good Health Is An E Commerce Website Build On Laravel 5.1. 
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+This is a custom developed website named good health build on Laravel 5.1 to sell prescription drugs and medicines online. 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+### Installation ###
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+* `https://github.com/adityabanerjee992/good-health.git projectname`
+* `cd projectname`
+* `composer install`
+* `php artisan key:generate`
+* Create a database and inform *.env*
+* `php artisan migrate --seed` to create and populate tables
+* `php artisan serve` to start the app on http://localhost:8000/
 
-## Official Documentation
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+### Session ###
 
-## Contributing
+* Go to your .env file and change SESSION_DRIVER=file to SESSION_DRIVER=database.
+* Next you will need to create a session migration: php artisan session:table.
+* Now composer dump-autoload for good practice.
+* Finally migrate (php artisan migrate).
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
 
-## Security Vulnerabilities
+### Features ###
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+* Admin Panel is included.
+* Through admin panel you could assign roles and permission to users i.e role based access.
+* Authentication (Register, Login, Logout).
+* Managing Orders from admin panel. 
+* Invoice printing for operations. 
+* Logs are generated on every event to track everything from admin panel.
+* Managing products from admin panel. 
+* Bulk product upload from admin using csv.
+* Managing stores from admin panel.
+* Search functionality to find products. 
+* Different categories for products.
+* End to end cart functionality.
+* Email and sms on differnet events.
+* Customer dashboard to view or edit his orders, address etc. 
 
-### License
+### Admin Panel ###
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+* To access the admin panel go to http://localhost:8000/admin.
+* Enter username -: admin@admin.com
+* Enter password -: admin 
+
+
+### Help ###
+
+For any support or questions please email me at adityabanerjee992@gmail.com.
+
